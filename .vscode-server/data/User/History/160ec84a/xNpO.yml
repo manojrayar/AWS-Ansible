@@ -1,0 +1,16 @@
+---
+- hosts: localhost
+  tasks:
+    - name: trigger github action
+      uri: 
+        url: "https://api.github.com/repos/Ayushroc007/githubaction/actions/workflows/blank.yml/dispatches"
+        method: POST
+        headers:
+          Authorization: "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"
+          Accept: "application/vnd.github.v3+json"
+        body: |
+          {
+           "ref": "main"
+           }
+        body_format: json
+        status_code: 204

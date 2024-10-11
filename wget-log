@@ -1,0 +1,11 @@
+--2024-08-29 09:33:56--  https://www.redhat.com/en/technologies/management/ansible/trial?trialid=4d4b54474556414c31303339
+Resolving www.redhat.com (www.redhat.com)... 23.53.71.9, 2600:140f:1e00:48a::d44, 2600:140f:1e00:48d::d44
+Connecting to www.redhat.com (www.redhat.com)|23.53.71.9|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘trial?trialid=4d4b54474556414c31303339’
+
+trial?trialid=4d4b54474556414c31303339      [<=>                                                                          ]       0  --.-KB/s               trial?trialid=4d4b54474556414c31303339      [ <=>                                                                         ]  84.01K  --.-KB/s    in 0.09s   
+
+2024-08-29 09:33:56 (928 KB/s) - ‘trial?trialid=4d4b54474556414c31303339’ saved [86022]
+

@@ -1,0 +1,23 @@
+---
+- name: Chrome Test
+  hosts: windows
+  # vars:
+  #   file_path: C:\Users\Administrator\Desktop\result.txt
+  tasks:
+    - name: get the status of robot scripts
+          win_shell: type "C:\Users\Administrator\Desktop\result.txt"
+          register: status
+          until: (status.stdout.find("fail") != -1) or (status.stdout.find("pass") != -1)
+          retries: 30
+          delay: 5
+            #  failed_when: status.stdout is search('fail')
+    
+        - name: fail condition
+          debug:
+            msg: robot script execution failed
+          when: status.stdout is search('fail')
+    
+        - name: fail condition
+          debug:
+            msg: robot script execution is done successfully
+          when: status.stdout is search('pass')

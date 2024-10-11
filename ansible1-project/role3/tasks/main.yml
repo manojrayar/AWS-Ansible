@@ -1,0 +1,7 @@
+- name: Deploy application
+  copy:
+    src: application.tar.gz
+    dest: /opt/application
+  args:
+    creates: /opt/application/app.py
+  notify: restart application

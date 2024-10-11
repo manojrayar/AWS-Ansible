@@ -1,0 +1,12 @@
+---
+- name: Ping Windows Server
+  hosts: windows
+  gather_facts: false
+  tasks:
+    - name: Ping the windows server
+      ansible.windows.win_ping:
+    - name: Open Chrome browser
+      win_command:
+        cmd: start chrome.exe
+        # creates: "C: msedge.exe"
+

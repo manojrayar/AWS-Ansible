@@ -1,0 +1,25 @@
+---
+- name: Chrome Test
+  hosts: windows
+  # vars:
+  #   file_path: C:\Users\Administrator\Desktop\result.txt
+  tasks:
+    - name: get the status of robot scripts
+      win_shell: type "C:\Users\Public\result.txt"
+      register: status
+      until: (status.stdout.find("fail") != -1) or (status.stdout.find("pass") != -1)
+      retries: 30
+      delay: 5
+        #  failed_when: status.stdout is search('fail')
+
+    - local_action: copy content={{ status.stdout_lines }} dest=/home/ec2-user/ansible_windows_project/result.txt
+
+    - name: output condition
+      debug:
+        msg: "{{ status.stdout }}"
+      # when: status.stdout is search('fail')
+
+    # - name: pass condition
+    #   debug:
+    #     msg: robot script execution is done successfully
+    #   when: status.stdout is search('pass')

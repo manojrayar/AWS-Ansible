@@ -1,0 +1,8 @@
+- name: My Playbook
+  hosts: all
+  vars_files:
+    - "envfiles/{{ env }}.yml"
+  tasks:
+    - name: Parsing the .Zip path
+      ansible.builtin.shell:
+        cmd: echo "{{ pathVar }}" | sed 's#.*/\([^/]*\).zip#\1#'

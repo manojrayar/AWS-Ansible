@@ -1,0 +1,768 @@
+{
+ "files": [
+  {
+   "name": ".",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "schemas",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "schemas/event",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "schemas/event/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "54e673fe16ffc0a10cdc02ac8e808e8c1c5e2b11ea8230bb33451bdcad5ae1a6",
+   "format": 1
+  },
+  {
+   "name": "schemas/event/range.json",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3a05006ed40283f7bdfac10e6e196ee41370dca6e41acabb7ffc7c38d02adb5f",
+   "format": 1
+  },
+  {
+   "name": "schemas/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5a7beb685d164fa141b6bdbe3f963c997aa6f61a4f510d983b55d7a967e349e6",
+   "format": 1
+  },
+  {
+   "name": "bindep.txt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "38f006df9263da3b63bca6f90e17a57d9e991cf251bf28c2dd43ac4b371167a6",
+   "format": 1
+  },
+  {
+   "name": "extensions",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "extensions/eda",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/plugins",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/plugins/event_filter",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/plugins/event_filter/insert_hosts_to_meta.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "64b208fc2239b619e475b8ffb85ce72a4017d9a0cacdc690bf512eaf58b4ef38",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/plugins/event_filter/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "41044864f336715d08e61a30e173a49306574fa3df749be004a2a4aa4cf777ce",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/plugins/event_filter/json_filter.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "aebde583cae34d72a0a7b55b0414dcbbcfc75b291c7ab41fd6b9d5954b96784f",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/plugins/event_filter/dashes_to_underscores.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fb0e8dc49595a5bf8f2ccff6f67abf3a808b2e1b1f05deb7ea524b8914ea3941",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/plugins/event_filter/normalize_keys.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ab6f13567cee9d5527188910b8137f95dc52e4bc502eceaf267b6f226e9536d7",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/plugins/event_filter/noop.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "64a8681de06b2324983bf8fe77cd83c8b26c2a00616c586c3e863cfb0a57d446",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/plugins/event_source",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/plugins/event_source/schemas",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/plugins/event_source/schemas/file_watch.json",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "30783c97b67ba8cd1425832b60421bf741fdb7c9a120adef91146d46b38e636c",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/plugins/event_source/schemas/azure_service_bus.json",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "525197e227e031815ac189d03b9b57ef93c205dc242da3455e1cd22fa099d2be",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/plugins/event_source/schemas/aws_sqs_queue.json",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5cdc2ead19d967aa9e741b600ee9a1764d66d2b41b9b0ff76ba0b189e401c2c7",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/plugins/event_source/schemas/kafka.json",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c94e0577a5a433a41a51bf1accd8adf32589b777526e3dfd4897b0e03d1c8f1e",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/plugins/event_source/schemas/aws_cloudtrail.json",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8746a23f2033f48c9d3682a0677df610f3597c5d884777b3ba19fe8f09f1f19c",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/plugins/event_source/schemas/url_check.json",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a1b23659acd50dbfa4d16e24bb6c53891b1cebce2947f77744aeebe7f9b634a1",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/plugins/event_source/schemas/webhook.json",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1174690391eed4aa9b7ebd8160f953c56cea9ae29a33d9c5b5450bdeb75af6f0",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/plugins/event_source/schemas/journald.json",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6f1e1232cacb0ddb1068ff365c2e155ac53faaefce908401595655fc944a6708",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/plugins/event_source/schemas/range.json",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1e2edc3539e792422023e9d991e2c407e3284943c7aadf2fa2eb56af564413ae",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/plugins/event_source/schemas/alertmanager.json",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c4a3f01082445e14ab06702868bd7e4f2a88b49b9cc863d32f7020e95d4d7e89",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/plugins/event_source/schemas/file.json",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c4f1417cfdd05434c26d6db31eb93217a6a5a111ac9e1c23ab70b38bc1309ab5",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/plugins/event_source/schemas/pg_listener.json",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4dcc53f965894a916e86bd768383815d99f1c2c65690c0d127b78e6afa310263",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/plugins/event_source/schemas/generic.json",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1f4f8e1d69c9dc038186dd7280cc16b67a0389918d74d2c64ba220c96fe3ee3a",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/plugins/event_source/range.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "70f8560e11205bfbbfa73f3bf3fe7310ca3cefec6cb29cd28c96bbdd7384a3e6",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/plugins/event_source/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fb6a1a6436bf2370f8e90dcf053a47589eab4b2a9b1f942c9f8e227da57ae3c7",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/plugins/event_source/aws_sqs_queue.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f675cf0d7a07282d084385d6dde7b7bc01a2f094b0aacc307a23a704f3b04257",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/plugins/event_source/aws_cloudtrail.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5439c02b47f16e060f5c411cc01d5bb2fe2d262a4d0f5b40adbeafecb017b6e2",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/plugins/event_source/__init__.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/plugins/event_source/tick.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9220ac9fbec7c4ebd41233bd818c8397025ef73475d0c741ae8ea29961e434ba",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/plugins/event_source/pg_listener.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "169ca705c99322c7ab76d408b00f98fe3990b33e5abebd8c60f8aaba8f133237",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/plugins/event_source/file.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "43e771eaca27cad8ee6661dd224e10a062fe8c9d9c55965e4d1d5db8018096ab",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/plugins/event_source/kafka.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2029229ed76c997d5b099c242178bc8e9e203334c43066296fd07aa567a6b624",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/plugins/event_source/alertmanager.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "aff4767891d06d66dc467f9681b2dddfbd3864962c0b31e7bbbbc91c1f4efe8c",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/plugins/event_source/azure_service_bus.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c44b687729e07b890f73a8209faa602a646b52077ff0a170b5cf1b3924362808",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/plugins/event_source/file_watch.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4b131c1585b3e92bd63da05968ec31d378da3fbfb9655a87896621bfccf8befe",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/plugins/event_source/webhook.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b2cc01e763b339d8819d4acb13746e165aeef498efb2326c5dba883899bd14a0",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/plugins/event_source/journald.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8461f72928eec53857aea80671964852350249674eca4938d6d934244f5214ad",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/plugins/event_source/generic.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "809de2b83b9d4e7a744b1f01ac7838f52e8af969df44aaff070c15d398124d71",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/plugins/event_source/url_check.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "07dadfa8e07877eaabb51618b949b99f503bae788ae0b56a479bcf9785704ecf",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/rulebooks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/rulebooks/kafka-test-rules.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2e99bc220da636ba4dee94f0ea3c52c12f1238eb34a2776267225744419c2116",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/rulebooks/github-ci-cd-rules.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c2ea87d8b8ffb1172aad11fcb3de1ad146a68791804e724ae2093ee61bca2288",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/rulebooks/journald_events.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "02d83a60b5ebaecd5617a947a93776ec2ad93546ea6f200e8246fb337c2d5e2b",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/rulebooks/hello_events.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "781a2d1c424e6e13efdc547e10e17b60ed541d123aaefb554ea22c28586a1719",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/rulebooks/demo_webhook_rulebook.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0afbd82fec68f403e9b8307609f08bf2e069b069cdef3c150b38d0b54d245d72",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/rulebooks/local-test-rules.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ce6bd9e25c95dedf2fbfc45450e67a7e85e67a075c1f007177a9f08668f44eea",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/rulebooks/demo_controller_rulebook.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1e0f22025ab0a4e729fb68bcb9497412c3d9f477ce5a8cb91cc2ef15e35c4dc6",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/rulebooks/demo_rulebook.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f2908a72121eee83afb5d2920e5fc7dde154ddb303470cc6edf7296d228d0bc1",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/rulebooks/git-hook-deploy-rules.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "32de730b7c874766b1936d83474f2af1014abdb346deedb605f2aa49ea209c76",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/rulebooks/git-hook-test-rules.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "eb4d479e122773fadb756d20a090c2d7f01fa459ede647ba5e83580f18b6579f",
+   "format": 1
+  },
+  {
+   "name": "extensions/eda/rulebooks/process_down.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cc9ade279a97fd5eb7e4dec3703d6e329a7ce878ba64a9fed4e04deeb5f93fd6",
+   "format": 1
+  },
+  {
+   "name": ".flake8",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b82c4ad33cc694aae1dc49ec0ae5621508b18ee0a3da9c0f4f84c85a96cf511a",
+   "format": 1
+  },
+  {
+   "name": "README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c8094678b0d53b4c3e92017f2a5bfdebfb644248d946c2c4c02b7ef66f522818",
+   "format": 1
+  },
+  {
+   "name": "plugins",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "plugins/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "533dcaafc018b89297cf72098c36ea97dd2352a3f734fb8cc7568af8818fd7f1",
+   "format": 1
+  },
+  {
+   "name": "plugins/module_utils",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "plugins/module_utils/__init__.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "format": 1
+  },
+  {
+   "name": "plugins/module_utils/arguments.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2d374df9a8e298e11b2d88f485bf17478fb98b5218b663df7c1ca8a07cc66ca8",
+   "format": 1
+  },
+  {
+   "name": "plugins/module_utils/client.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9c263a828215fd041a8c675a18b05e3655fb7c8a93bb1378822d599ac3b2693c",
+   "format": 1
+  },
+  {
+   "name": "plugins/module_utils/controller.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "84414363f162040be47fb130d4c0b33cb68095faecc530095248552e39942d8c",
+   "format": 1
+  },
+  {
+   "name": "plugins/module_utils/errors.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c553031e3e03149bab4ae30b28ce04e855ade94f90db9f2e9fbf5a543c8c3fb7",
+   "format": 1
+  },
+  {
+   "name": "plugins/module_utils/common.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6307436f5270ce314bf31578efb0afe550345f22b4f830db65397fcf2d764d93",
+   "format": 1
+  },
+  {
+   "name": "plugins/doc_fragments",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "plugins/doc_fragments/__init__.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "format": 1
+  },
+  {
+   "name": "plugins/doc_fragments/eda_controller.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "284b12d5cca06ec296a5ac93cb76bf6d6e56a8533da85811198b287a4e5228b7",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/credential_type.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4ea995baabdcbe2df972c5efbe5a32ec8670eb1e340650744b8ac95000832903",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/event_stream.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "dd2934f2ef9500616a518e139389aa30c4175c4516b323657ea12d92dce5d5f6",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/credential.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1b94cf6db10ad4ec79a7c17a1859864fa8e81e2bc3a30bef64b338a1b2ec87e5",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/credential_type_info.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "dedfad429d98cc523337273c158d2d62af7782cdb81f9a999817f7e28c66911f",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/project_info.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e487a5ab84c6cfc4155a16f8cf871b5b5f74bf33d84957eb817723988a3aea8c",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/user.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b0dccde78157a9639975802d28e2036ed3c3f2ab7503b00889869054bf068ca7",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/__init__.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/event_stream_info.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "117abc2ac2088b8510d0bce86613990d99ffede8ee093d256f6ed4578fe0953d",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/rulebook_activation_info.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "69c729f6e5f5ab827eba543a34bc7f75cdd02f4c1c87177a9d041fc05fc9b6fa",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/controller_token.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a300650dc39a8b7fec34263ffed3e881a3a4eb740503c1e3ff64b63d1da4814e",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/credential_info.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4d8629272818aa4668303a196a3d514c2d32517db29f6f63f4cde665b4cf7501",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/decision_environment_info.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "33878f4e302f9ea5204ed011f9b30a881aefbc39299f95045a861edc2c2d68f0",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/project.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "da39a0393bab586ae912e2124e6ed11b9622abf6a54bf2e172547e54cbb8c704",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/rulebook_info.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b5c2b4ab25605fee3cee5459cdf21da7c9f8bb74b1ecc9479ca72bc0ea3b86f4",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/rulebook_activation.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f36a4bbcfd79ec22f8c9272ca5d561e0721544d44d3d50e079f90bb177a73a38",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/decision_environment.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a14089df87b5be571d24f256a1f735532b6337a865d9921b3122ef0fafd0acad",
+   "format": 1
+  },
+  {
+   "name": "CONTRIBUTING.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "664c21be1ad0a997363b032bc75b58a233405fdc365154bb99514030e431b318",
+   "format": 1
+  },
+  {
+   "name": "tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/__init__.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "format": 1
+  },
+  {
+   "name": "tests/integration",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "meta/runtime.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c9237cd13a6c43b54e9f499bbcb8ec97f260894a8534c9033db32864046a41c4",
+   "format": 1
+  },
+  {
+   "name": "meta/extensions.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "613bb13b4495cfea13e4c474d257c6ac44d69c9de9be9151697e0ca00be0f4f5",
+   "format": 1
+  },
+  {
+   "name": "docs",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "docs/CHANGELOG.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9d65b18c8f46d02bbc2af1e29bf6047a46842af6073a6a008f0f3c5e91c6fb7d",
+   "format": 1
+  },
+  {
+   "name": "docs/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c8094678b0d53b4c3e92017f2a5bfdebfb644248d946c2c4c02b7ef66f522818",
+   "format": 1
+  },
+  {
+   "name": "playbooks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "playbooks/hello.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "20e70be12e34973482ac48c068979fd473c9cc0ef363aea58a6bb7fd664b8d3e",
+   "format": 1
+  },
+  {
+   "name": ".ansible-lint",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "642e0eef531225bbf8e897babad97baf36d5d7eea9c1ebb3849830e53db85471",
+   "format": 1
+  },
+  {
+   "name": ".gitignore",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "562b399865e3a81144e8ceead5b82c06f22eeab537d6c39054259eb4c8d2a091",
+   "format": 1
+  },
+  {
+   "name": "LICENSE",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+   "format": 1
+  },
+  {
+   "name": "requirements.txt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d1b69f6bfdc83c43de1fee419aa43dacc6445ff926850fea6c3ff2f17196d4a7",
+   "format": 1
+  },
+  {
+   "name": "examples",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "examples/eda-setup.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e1a222002b0a8fed3fcec7a7aca9d58e9dfe976da28f0221d392e513c0e65777",
+   "format": 1
+  }
+ ],
+ "format": 1
+}

@@ -1,0 +1,26 @@
+---
+- name: Ensure github runner is running on windows server
+  hosts: windows
+  tasks: 
+    - name: Check if github runner service is running 
+      win_shell: | 
+         type nul > "C:\Users\Public\result.txt"
+         $processes = Get-Process -Name Runner.Listener -ErrorAction SilentlyContinue
+         if ($processes) {
+          Write-Output "Runner is already running."
+          exit 0
+         } else {
+           Write-Output "Runner is not running."
+          exit 1
+         }
+      register: runner_status
+      ignore_errors: yes
+
+    - name: Start github Runner service if not running
+      win_shell: |
+        C:\Users\Administrator\Desktop\start-runner.bat
+      when: runner_status.rc != 0
+      async: 1
+      poll: 0
+   
+

@@ -1,0 +1,24 @@
+2024-09-11 04:15:54.356 [info] 
+
+
+
+
+2024-09-11 04:15:54.372 [info] Extension host agent started.
+2024-09-11 04:16:12.708 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2024-09-11 04:16:12.708 [info] Cancelling previous shutdown timeout
+2024-09-11 04:16:13.394 [error] [127.0.0.1][1f5ba176][ManagementConnection] Unknown reconnection token (never seen).
+2024-09-11 04:16:13.635 [error] [127.0.0.1][215c803f][ExtensionHostConnection] Unknown reconnection token (never seen).
+2024-09-11 04:16:38.732 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2024-09-11 04:16:38.732 [info] Cancelling previous shutdown timeout
+2024-09-11 04:16:41.605 [info] [127.0.0.1][346dd6e1][ManagementConnection] New connection established.
+2024-09-11 04:16:43.055 [info] [127.0.0.1][0275c3d4][ExtensionHostConnection] New connection established.
+2024-09-11 04:16:43.061 [info] [127.0.0.1][0275c3d4][ExtensionHostConnection] <65485> Launched Extension Host Process.
+2024-09-11 04:21:38.734 [info] New EH opened, aborting shutdown
+2024-09-11 06:35:34.229 [info] [127.0.0.1][5c9fb2f6][ManagementConnection] New connection established.
+2024-09-11 06:35:38.855 [info] [127.0.0.1][4f2ab965][ExtensionHostConnection] New connection established.
+2024-09-11 06:35:38.860 [info] [127.0.0.1][4f2ab965][ExtensionHostConnection] <66848> Launched Extension Host Process.
+2024-09-11 06:37:15.727 [info] [127.0.0.1][4f2ab965][ExtensionHostConnection] The client has reconnected.
+2024-09-11 06:40:34.649 [info] [127.0.0.1][0275c3d4][ExtensionHostConnection] <65485> Extension Host Process exited with code: 0, signal: null.
+2024-09-11 09:46:30.257 [info] [127.0.0.1][4f2ab965][ExtensionHostConnection] <66848> Extension Host Process exited with code: 0, signal: null.
+2024-09-11 09:46:30.259 [info] Last EH closed, waiting before shutting down
+2024-09-11 09:51:30.261 [info] Last EH closed, shutting down

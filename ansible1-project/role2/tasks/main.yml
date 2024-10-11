@@ -1,0 +1,3 @@
+- name: Access secret variable from Vault
+  debug:
+    msg: "Secret key in role2: {{ my_secret_key }}"

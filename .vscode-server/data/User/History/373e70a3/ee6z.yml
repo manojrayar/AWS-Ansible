@@ -1,0 +1,11 @@
+---
+- name: Ping Windows Server
+  hosts: windows
+  tasks:
+    - name: Ping the windows server
+      ansible.windows.win_ping:
+    - name: Open Chrome browser
+        win_command:
+          cmd: start chrome.exe
+          creates: "C:\Users\YourUsername\AppData\Local\Google\Chrome\Application\chrome.exe"
+

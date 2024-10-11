@@ -1,0 +1,13 @@
+{
+    "workbench.colorTheme": "Default Dark Modern",
+    "remote.SSH.remotePlatform": {
+        "*.gitpod.io": "linux",
+        "3.110.197.9": "linux",
+        "13.127.75.26": "linux",
+        "65.2.176.218": "linux",
+        "13.232.27.21": "linux",
+        "54.145.190.30": "linux",
+        "13.234.112.192": "linux",
+        "13.127.77.83": "linux"
+    }
+}

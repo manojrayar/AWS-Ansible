@@ -1,0 +1,1736 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#">
+    <head>
+        <script>performance.mark('HEAD Start');</script>
+        <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Red Hat Ansible Automation Platform | Product Trial</title>
+        <link rel="preconnect" href="https://static.redhat.com">
+    <link rel="preconnect" href="https://consent.trustarc.com">
+            <script id="rhdc_analytics_get_top_eddl_pagedata" type="text/javascript">var pageData = {"pageCategory":"technologies","pageName":"rh|technologies|management|ansible|trial","pageTitle":"Red Hat Ansible Automation Platform | Product Trial","pageType":"product_trial","pageSubType":"","siteExperience":"","siteLanguage":"en","subsection":"management","subsection2":"ansible","subsection3":"trial","cms":"RH CMS 1.0","analyticsTitle":"","contentID":"591831","contentType":"","destinationURL":"https:\/\/www.redhat.com\/en\/technologies\/management\/ansible\/trial","gated":"false","offerID":"","errorType":"","contentPublishDate":"2022-04-04","siteName":"rh","dataObject":"appEventData","taxonomyProduct":["25911"],"taxonomyProductLine":["17901"],"pageStatus":"published"};</script>
+<script id="dpal" src="https://www.redhat.com/dtm.js" async></script>
+<script id="trustarc" type="text/javascript" src="https://static.redhat.com/libs/redhat/marketing/latest/trustarc/trustarc.js" async></script>
+<script src="https://static.redhat.com/libs/redhat/marketing/latest/trustarc/trustecm/js/trustecm.js" data-domain="www.redhat.com" async></script>
+<script class="trustecm" data-src="https://static.redhat.com/libs/redhat/marketing/latest/trustarc/trustecm/js/trustecm-functional.js" data-tracker-type="functional"></script>
+<script class="trustecm" data-src="https://static.redhat.com/libs/redhat/marketing/latest/trustarc/trustecm/js/trustecm-advertising.js" data-tracker-type="advertising"></script>
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/591831","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"raven":{"options":{"dsn":"https:\/\/676ea2c2d4a147c2834066d24c04a9e4@o490301.ingest.sentry.io\/5370002","environment":"prod","integrations":[],"tracesSampleRate":0.2,"autoSessionTracking":false,"sendClientReports":false},"showReportDialog":false,"browserTracingOptions":{"enableInp":null,"interactionsSampleRate":1}},"rh_oidc_manager":{"oidc_settings":{"authority":"https:\/\/sso.redhat.com\/auth\/realms\/redhat-external","client_id":"rhcom","loadUserInfo":true,"scope":"openid profile id.email id.idp id.name id.organization id.sub id.username roles api.graphql","silent_redirect_uri":"https:\/\/www.redhat.com\/en\/silent-renew.html"},"cookie_settings":{"rh_sso_session_enabled":true}},"rhdc_analytics":{"searchTerm":null},"rhdc_bulk_tagging":{"should_skip_product_primary_product_requirement":true,"field_taxonomy_product":{"add":"If there is currently no \u003Cb\u003EPrimary Product\u003C\/b\u003E value before this operation,\n    a \u003Cb\u003EProduct\u003C\/b\u003E value will be chosen as the \u003Cb\u003EPrimary Product\u003C\/b\u003E.","remove":"\u003Cul\u003E\n    \u003Cli\u003EIf removing all existing \u003Cb\u003EProduct\u003C\/b\u003E value(s), the \u003Cb\u003EPrimary Product\u003C\/b\u003E will also be removed.\u003C\/li\u003E\n    \u003Cli\u003EIf not, please choose a new valid \u003Cb\u003EPrimary Product\u003C\/b\u003E in a previous operation\n    before removing the \u003Cb\u003EProduct\u003C\/b\u003E.\u003C\/li\u003E\n    \u003C\/ul\u003E","replace":"If the \u003Cb\u003EProduct\u003C\/b\u003E that is being replaced is the \u003Cb\u003EPrimary Product\u003C\/b\u003E,\n    please change the \u003Cb\u003EPrimary Product\u003C\/b\u003E in a previous operation."},"field_taxonomy_product_primary":{"add":"The \u003Cb\u003EPrimary Product\u003C\/b\u003E that is being added must be a value of an existing \u003Cb\u003EProduct\u003C\/b\u003E value.\n    If the \u003Cb\u003EPrimary Product\u003C\/b\u003E value to add is not, please add that \u003Cb\u003EProduct\u003C\/b\u003E in a previous operation.","remove":"You cannot remove the \u003Cb\u003EPrimary Product\u003C\/b\u003E. This operation will be skipped.","replace":"If the new \u003Cb\u003EPrimary Product\u003C\/b\u003E value is not an existing \u003Cb\u003EProduct\u003C\/b\u003E value,\n    please add that \u003Cb\u003EProduct\u003C\/b\u003E in a previous operation."}},"rhdcCore":{"webrh":{"version":"1.204.0"}},"rhdcProductTrial":{"keycloakUrl":"https:\/\/sso.redhat.com\/auth","langcode":"en","nid":"591831","productTrialApiUrl":"https:\/\/www.redhat.com\/wapps\/rhpt","productTrialApiAccessUrl":"https:\/\/api.access.redhat.com","vid":"8894971","status":"1","productName":"Red Hat Ansible Automation Platform","displayTryItPage":"1","disclaimerStatement":"\u003Cp\u003EThis product trial is not intended for production use. By proceeding, you agree to the\u0026nbsp;\u003Ca href=\u0022\/en\/about\/agreements-old\u0022\u003Eproduct trial terms\u003C\/a\u003E.\u003C\/p\u003E","evalTermsConditions":"          \u003Cdiv class=\u0022one-column\u0022\u003E\n      \n      \n      \n                            \u003Cdiv  class=\u0022dx-relative content-region\u0022\u003E\n          \n  \u003C!-- Pattern | custom_band --\u003E\n    \n\n\n\n    \n        \n\n\n\n\n\n\n\n\n\n\n    \n    \n    \n\n\n\n\n    \n    \n    \n    \n    \n\n\n\n\n\n    \n\n    \n\n\n\n\n\n\n\u003Cdiv class=\u0022rh-band--layout\u0022  id=\u0022rhpt-terms-conditions\u0022 data-rh-unique-id=\u00228815881\u0022  data-rh-background-align=\u0022left-center\u0022 data-rh-band-collapse=\u0022reduced-top-only\u0022  data-rh-background=\u0022gray\u0022\u003E\n        \u003Cdiv class=\u0022rh-band-container\u0022data-rh-layout=\u0022stacked\u0022  \u003E\u003Csection class=\u0022rh-band-main\u0022    data-rh-layout=\u0022stacked\u0022\n\u003E\u003Cdiv class=\u0022rh-band-content\u0022    \n                     data-rh-layout=\u00227 5 flex left\u0022                \u003E\u003C!-- Subpattern | standard_text --\u003E\n\n\n            \n        \n        \n                \n    \n\n\n\n\n\n\u003C!-- Group layout --\u003E\n    \u003Cdiv class=\u0022rh-group--layout\u0022              data-rh-layout=\u0022stacked\u0022            data-eq-pts=\u0022xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620\u0022\n\u003E\n                            \u003Cdiv class=\u0022rh-group-body\u0022      data-rh-layout=\u0022min-stacked\u0022     \u003E\n                                    \u003C!-- Component | Generic --\u003E\n\n\n    \u003Cdiv class=\u0022rh-generic--component\u0022\n                 data-rh-align=\u0022left\u0022    \u003E\n        \u003Ch3\u003EProduct trial terms and conditions\u003C\/h3\u003E\n\n\u003Ch6 class=\u0022rc-footnote\u0022\u003ERed Hat is providing each Red Hat Product Trial Subscription for evaluation purposes subject to the terms of the Red Hat Enterprise Agreement. If you use the Red Hat Subscription for any purpose other than evaluation, you agree to pay Red Hat the Subscription Fee(s) for each Unit pursuant to the Enterprise Agreement, which is in addition to any and all other remedies available to Red Hat under applicable law.\u003C\/h6\u003E\n\n\u003Ch6 class=\u0022rc-footnote\u0022\u003EExamples of situations where you would incur additional fees and be in violation of the Agreement include, but are not limited to:\u003C\/h6\u003E\n\n\u003Cul\u003E\n\t\u003Cli\u003E\n\t\u003Ch6 class=\u0022rc-footnote\u0022\u003EUsing the services provided under the trial program for a production installation,\u003C\/h6\u003E\n\t\u003C\/li\u003E\n\t\u003Cli\u003E\n\t\u003Ch6 class=\u0022rc-footnote\u0022\u003EOffering support services to third parties, or\u003C\/h6\u003E\n\t\u003C\/li\u003E\n\t\u003Cli\u003E\n\t\u003Ch6 class=\u0022rc-footnote\u0022\u003EComplementing or supplementing third-party support services with services received through the Red Hat Product Trial Subscription program.\u003C\/h6\u003E\n\t\u003C\/li\u003E\n\u003C\/ul\u003E\n\n\u003Ch6 class=\u0022rc-footnote\u0022\u003EBy proceeding, you acknowledge that you\u0027ve read and agree to the terms and conditions of the Red Hat Enterprise Agreement which governs your use.\u003C\/h6\u003E\n\n    \u003C\/div\u003E\n                            \u003C\/div\u003E\n                    \u003C\/div\u003E\n\u003C\/div\u003E\u003C\/section\u003E\u003C\/div\u003E\n    \u003C\/div\u003E\n\n        \u003C\/div\u003E\n                  \u003C\/div\u003E\n  \n\n\n","whatYouGetList":"\u003Ch3\u003E\u003Cstrong\u003EWhat you get with this product trial\u003C\/strong\u003E\u003C\/h3\u003E\u003Cul\u003E\u003Cli dir=\u0022ltr\u0022 aria-level=\u00221\u0022\u003EA single, 60-day, self-supported subscription to Red Hat\u00ae Ansible\u00ae Automation Platform for installation on Red Hat Enterprise Linux\u00ae (subscriptions to Red Hat Enterprise Linux and Red Hat Satellite are included with this product trial, if not already installed)\u003C\/li\u003E\u003Cli dir=\u0022ltr\u0022 aria-level=\u00221\u0022\u003EA single entitlement to all available versions of this product.\u003C\/li\u003E\u003Cli dir=\u0022ltr\u0022 aria-level=\u00221\u0022\u003ERed Hat Ansible Lightspeed with IBM watsonx\u2122 Code Assistant, including the Ansible code bot.\u0026nbsp;\u003Cstrong\u003ENOTE: You must also activate the Ansible Lightspeed service.\u003C\/strong\u003E\u003C\/li\u003E\u003Cli dir=\u0022ltr\u0022 aria-level=\u00221\u0022\u003EAutomation analytics and Red Hat Insights on Red Hat Hybrid Cloud Console.\u003C\/li\u003E\u003Cli dir=\u0022ltr\u0022 aria-level=\u00221\u0022\u003EAccess to Red Hat\u0027s award-winning Customer Portal, including documentation, helpful videos, discussions, and more.\u003C\/li\u003E\u003C\/ul\u003E","trialEligibility":"\u003Cp\u003ETo start a no-cost product trial, you must:\u003C\/p\u003E\u003Cul\u003E\u003Cli\u003EHave a Red Hat account. (You\u2019ll be prompted to create an account if you don\u2019t have one.)\u003C\/li\u003E\u003Cli\u003EHave waited at least 90 days since activating this trial previously.\u003C\/li\u003E\u003C\/ul\u003E","trialOffers":[{"bundle":"product_trial_offer","id":"7197171","toAlternateDownloads":"\u003Cp\u003ELooking for a previous version of this product? \u003Ca href=\u0022https:\/\/access.redhat.com\/downloads\/content\/480\u0022\u003EStart here\u003C\/a\u003E.\u003C\/p\u003E","toCooldown":"\u003Cp\u003EYou can continue using Red Hat\u00ae Ansible\u00ae Automation Platform\u0026nbsp;in a nonproduction environment, but you won\u2019t have access to trial updates and related content until you\u2019re eligible to start a new trial on @eligibleDate.\u003C\/p\u003E","toDescription":"\u003Cp\u003E60 Day Product Trial of Red Hat Ansible Automation Platform, Self-Supported (100 Managed Nodes)\u003C\/p\u003E","toDownload":"730c4b831a8c1cddd0a7023db2dd1159d0aebd2dc81921fe3224999d771b5dfb","toIneligible":"","toOfferId":"7013a000002D82DAAS","toProductLogo":[],"toRestrictedAccount":"\u003Cp\u003E          \u003C\/p\u003E\u003Cdiv class=\u0022one-column\u0022\u003E\n      \n      \n      \n                            \u003Cdiv class=\u0022dx-relative content-region\u0022\u003E\n              \n            \u003Ch3\u003E\u003Cstrong\u003EYour account is on hold pending export compliance review\u003C\/strong\u003E\u003C\/h3\u003E\n\n\u003Cp\u003EOur Export Compliance Team is reviewing your request because your information indicates you\u2019re in a location or with an organization to which Red Hat may not export its products.\u003C\/p\u003E\n\n\u003Cp\u003EIn accordance with United States Export Regulations, we cannot process your request at this time.\u003C\/p\u003E\n\n\u003Cp\u003EOnly Red Hat\u2019s Export Compliance Team can resolve export holds. Please review \u003Ca href=\u0022http:\/\/access.redhat.com\/articles\/1340183\u0022\u003Ethis article\u003C\/a\u003E for more details and next steps.\u003C\/p\u003E\n\n\u003Cp\u003E\u0026nbsp;\u003C\/p\u003E\n\n      \n\n        \u003C\/div\u003E\n                  \u003C\/div\u003E\n  \n\n","toOrgAdmin":"","toSuccessRedirectUrl":"","toTitle":"Red Hat Ansible Automation Platform","toTrialId":"4d4b54474556414c31303339"}],"exportComplianceMessages":{"DOMAIN_BLOCKING":"\u003Cdiv class=\u0022rh-raw\u0022 data-rh-unique-id=\u00227952561\u0022 id=\u0022DOMAIN_BLOCKING\u0022\u003E\n\u003Cp\u003EIn compliance with U.S. trade control regulations, your account has been restricted. Please read \u003Ca href=\u0022https:\/\/www.redhat.com\/en\/about\/export-control-product-matrix\u0022\u003ERed Hat Export Control Policies and Guidelines\u003C\/a\u003E for more information. (SS v1)\u003C\/p\u003E\n\u003C\/div\u003E\n\u003C!-- Pattern | raw_html --\u003E","EMBARGOED_COUNTRY_BLOCK":"\u003Cdiv class=\u0022rh-raw\u0022 data-rh-unique-id=\u00227952571\u0022 id=\u0022EMBARGOED_COUNTRY_BLOCK\u0022\u003E\n\u003Cp\u003EIn compliance with U.S. trade control regulations, your account has been restricted. Please read \u003Ca href=\u0022https:\/\/www.redhat.com\/en\/about\/export-control-product-matrix\u0022\u003ERed Hat Export Control Policies and Guidelines\u003C\/a\u003E for more information. (SS v2)\u003C\/p\u003E\n\u003C\/div\u003E\n\u003C!-- Pattern | raw_html --\u003E","ERROR_EXPORT_CONTROL":"\u003Cdiv class=\u0022rh-raw\u0022 data-rh-unique-id=\u00227952581\u0022 id=\u0022ERROR_EXPORT_CONTROL\u0022\u003E\n\u003Cp\u003EYour account appears to be on Export Hold. Please review the information at the following link for more detail: \u003Ca href=\u0022https:\/\/access.redhat.com\/articles\/1340183\u0022\u003Ehttps:\/\/access.redhat.com\/articles\/1340183\u003C\/a\u003E (SS v3)\u003C\/p\u003E\n\u003C\/div\u003E\n\u003C!-- Pattern | raw_html --\u003E"}},"rhdc_solr_listing":{"testmode":false},"csp":{"nonce":"U2dgpx4q2blWjd_idDtJ3A"},"user":{"uid":0,"permissionsHash":"4e6431c697e39cd6377f88673b75b00c2f488be354e6b9f8da93f735142dda73"}}</script>
+<script src="/rhdc/system-files/js/js_NvLUMIWmN0EMR7dHmHHerr5FnbIMFZRo0y69PdjkMLg.js?scope=header&amp;delta=0&amp;language=en&amp;theme=rhdc&amp;include=eJyNUltuxCAMvFASDtGvngIZ8AZrCabG2Ta3L3lJabdS9yfYZjyeIZYYvIUMaVHy1ciP1GIIyTpW5akTeGA227eTaJkacmrQEcV4QVDcaz4RZu3kf-JKraciiI-vwFGEpatLVZyMg4qrjPW0M5kxsYP0FoUn7D7RSTTlhn2GB42gxHmbsPH2O_ap0FcvVLReLipqnyCPvWe-E15ubsyKcqW6qFeZqzZbg-dc22MMxzsNUKhLsPCsNlD1_EBZDGf0nA7RXuGIHORwhLWARzmSETMK-SMTDBH0fR10MoCEC4WNCKE1N6BtSFsjrGEiV0346melVPtd0zlNW1sj-d3p7xhIWVaNQ6IxaljX4g9eif3qozknXSxODkOTVbbfsM-gJtgWyHj6xo_TnvBcTiuctZG0HTn2qQiH2atVIUjmufQayro5h4TfuIgo0g"></script>
+<script src="/modules/contrib/rh_oidc_manager/libraries/dist/js/OidcManager.min.js?siwah3" type="module"></script>
+<script src="/modules/contrib/rh_oidc_manager/libraries/dist/js/index.min.js?siwah3" type="module"></script>
+<script src="https://static.redhat.com/libs/@redhat/marketing/latest/rh.mktg.js" async></script>
+
+        <link rel="stylesheet" media="all" href="/rhdc/system-files/css/css_5Mc0c8KbJjym5hv6NpxwG8hf2xbEqldPXaSQb_l9p4Q.css?delta=0&amp;language=en&amp;theme=rhdc&amp;include=eJyNUltuxCAMvFASDtGvngIZ8AZrCabG2Ta3L3lJabdS9yfYZjyeIZYYvIUMaVHy1ciP1GIIyTpW5akTeGA227eTaJkacmrQEcV4QVDcaz4RZu3kf-JKraciiI-vwFGEpatLVZyMg4qrjPW0M5kxsYP0FoUn7D7RSTTlhn2GB42gxHmbsPH2O_ap0FcvVLReLipqnyCPvWe-E15ubsyKcqW6qFeZqzZbg-dc22MMxzsNUKhLsPCsNlD1_EBZDGf0nA7RXuGIHORwhLWARzmSETMK-SMTDBH0fR10MoCEC4WNCKE1N6BtSFsjrGEiV0346melVPtd0zlNW1sj-d3p7xhIWVaNQ6IxaljX4g9eif3qozknXSxODkOTVbbfsM-gJtgWyHj6xo_TnvBcTiuctZG0HTn2qQiH2atVIUjmufQayro5h4TfuIgo0g" />
+<link rel="stylesheet" media="print" href="/rhdc/system-files/css/css_VlvNvQm57fmwEwbub09c0-A9F9tGtFfxXmjMvA-NTUo.css?delta=1&amp;language=en&amp;theme=rhdc&amp;include=eJyNUltuxCAMvFASDtGvngIZ8AZrCabG2Ta3L3lJabdS9yfYZjyeIZYYvIUMaVHy1ciP1GIIyTpW5akTeGA227eTaJkacmrQEcV4QVDcaz4RZu3kf-JKraciiI-vwFGEpatLVZyMg4qrjPW0M5kxsYP0FoUn7D7RSTTlhn2GB42gxHmbsPH2O_ap0FcvVLReLipqnyCPvWe-E15ubsyKcqW6qFeZqzZbg-dc22MMxzsNUKhLsPCsNlD1_EBZDGf0nA7RXuGIHORwhLWARzmSETMK-SMTDBH0fR10MoCEC4WNCKE1N6BtSFsjrGEiV0346melVPtd0zlNW1sj-d3p7xhIWVaNQ6IxaljX4g9eif3qozknXSxODkOTVbbfsM-gJtgWyHj6xo_TnvBcTiuctZG0HTn2qQiH2atVIUjmufQayro5h4TfuIgo0g" data-onload-media="all" onload="this.onload=null;this.media=this.dataset.onloadMedia" />
+<link rel="stylesheet" media="print" href="https://static.redhat.com/libs/redhat/marketing/latest/trustarc/trustecm/css/trustecm.css" data-onload-media="all" onload="this.onload=null;this.media=this.dataset.onloadMedia" />
+<link rel="stylesheet" media="all" href="/rhdc/system-files/css/css_IIKjZIVXTpXSazUCzGHXHRtYPj3tOjKGnDCX-ZJ7mRQ.css?delta=3&amp;language=en&amp;theme=rhdc&amp;include=eJyNUltuxCAMvFASDtGvngIZ8AZrCabG2Ta3L3lJabdS9yfYZjyeIZYYvIUMaVHy1ciP1GIIyTpW5akTeGA227eTaJkacmrQEcV4QVDcaz4RZu3kf-JKraciiI-vwFGEpatLVZyMg4qrjPW0M5kxsYP0FoUn7D7RSTTlhn2GB42gxHmbsPH2O_ap0FcvVLReLipqnyCPvWe-E15ubsyKcqW6qFeZqzZbg-dc22MMxzsNUKhLsPCsNlD1_EBZDGf0nA7RXuGIHORwhLWARzmSETMK-SMTDBH0fR10MoCEC4WNCKE1N6BtSFsjrGEiV0346melVPtd0zlNW1sj-d3p7xhIWVaNQ6IxaljX4g9eif3qozknXSxODkOTVbbfsM-gJtgWyHj6xo_TnvBcTiuctZG0HTn2qQiH2atVIUjmufQayro5h4TfuIgo0g" />
+<link rel="stylesheet" media="print" href="https://static.redhat.com/libs/redhat/rh-iconfont/5/files/rh-web-iconfont.css" data-onload-media="all" onload="this.onload=null;this.media=this.dataset.onloadMedia" />
+<link rel="stylesheet" media="all" href="/rhdc/system-files/css/css_aKso_y-XdRh5AmvSaXSAa094uMKgIgVpGfDdd0ATaeo.css?delta=5&amp;language=en&amp;theme=rhdc&amp;include=eJyNUltuxCAMvFASDtGvngIZ8AZrCabG2Ta3L3lJabdS9yfYZjyeIZYYvIUMaVHy1ciP1GIIyTpW5akTeGA227eTaJkacmrQEcV4QVDcaz4RZu3kf-JKraciiI-vwFGEpatLVZyMg4qrjPW0M5kxsYP0FoUn7D7RSTTlhn2GB42gxHmbsPH2O_ap0FcvVLReLipqnyCPvWe-E15ubsyKcqW6qFeZqzZbg-dc22MMxzsNUKhLsPCsNlD1_EBZDGf0nA7RXuGIHORwhLWARzmSETMK-SMTDBH0fR10MoCEC4WNCKE1N6BtSFsjrGEiV0346melVPtd0zlNW1sj-d3p7xhIWVaNQ6IxaljX4g9eif3qozknXSxODkOTVbbfsM-gJtgWyHj6xo_TnvBcTiuctZG0HTn2qQiH2atVIUjmufQayro5h4TfuIgo0g" />
+<link rel="stylesheet" media="all" href="/rhdc/system-files/css/css_X5HTgaSyxp-yRxQlRDkmXunZ1BZ6uLItehnWTwtudiE.css?delta=6&amp;language=en&amp;theme=rhdc&amp;include=eJyNUltuxCAMvFASDtGvngIZ8AZrCabG2Ta3L3lJabdS9yfYZjyeIZYYvIUMaVHy1ciP1GIIyTpW5akTeGA227eTaJkacmrQEcV4QVDcaz4RZu3kf-JKraciiI-vwFGEpatLVZyMg4qrjPW0M5kxsYP0FoUn7D7RSTTlhn2GB42gxHmbsPH2O_ap0FcvVLReLipqnyCPvWe-E15ubsyKcqW6qFeZqzZbg-dc22MMxzsNUKhLsPCsNlD1_EBZDGf0nA7RXuGIHORwhLWARzmSETMK-SMTDBH0fR10MoCEC4WNCKE1N6BtSFsjrGEiV0346melVPtd0zlNW1sj-d3p7xhIWVaNQ6IxaljX4g9eif3qozknXSxODkOTVbbfsM-gJtgWyHj6xo_TnvBcTiuctZG0HTn2qQiH2atVIUjmufQayro5h4TfuIgo0g" />
+<link rel="stylesheet" media="all" href="/rhdc/system-files/css/css_O5oCchq2lJuIYd2acYDpi0x1HuEi0QueOFWHgfcSGus.css?delta=7&amp;language=en&amp;theme=rhdc&amp;include=eJyNUltuxCAMvFASDtGvngIZ8AZrCabG2Ta3L3lJabdS9yfYZjyeIZYYvIUMaVHy1ciP1GIIyTpW5akTeGA227eTaJkacmrQEcV4QVDcaz4RZu3kf-JKraciiI-vwFGEpatLVZyMg4qrjPW0M5kxsYP0FoUn7D7RSTTlhn2GB42gxHmbsPH2O_ap0FcvVLReLipqnyCPvWe-E15ubsyKcqW6qFeZqzZbg-dc22MMxzsNUKhLsPCsNlD1_EBZDGf0nA7RXuGIHORwhLWARzmSETMK-SMTDBH0fR10MoCEC4WNCKE1N6BtSFsjrGEiV0346melVPtd0zlNW1sj-d3p7xhIWVaNQ6IxaljX4g9eif3qozknXSxODkOTVbbfsM-gJtgWyHj6xo_TnvBcTiuctZG0HTn2qQiH2atVIUjmufQayro5h4TfuIgo0g" />
+
+    
+        <link rel="preload" href="/themes/custom/rh_base_ui/src/fonts/red_hat_text/RedHatTextVFModified.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/themes/custom/rh_base_ui/src/fonts/red_hat_display/RedHatDisplayVFModified.woff2" as="font" type="font/woff2" crossorigin>
+                            <script type="speculationrules">{"prerender": [{"urls": ["/en"]}]}</script>
+                          <meta name="description" content="Download the no-cost, 60-day Red Hat Ansible Automation Platform trial, which includes access to our system management and predictive analytics software." />
+<link rel="canonical" href="https://www.redhat.com/en/technologies/management/ansible/trial" />
+<meta name="robots" content="index, follow" />
+<link rel="image_src" href="https://www.redhat.com/profiles/rh/themes/redhatdotcom/img/logo-rh-og-image.png" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.redhat.com/en/technologies/management/ansible/trial" />
+<meta property="og:title" content="Red Hat Ansible Automation Platform | Product Trial" />
+<meta property="og:description" content="Download the no-cost, 60-day Red Hat Ansible Automation Platform trial, which includes access to our system management and predictive analytics software." />
+<meta property="og:image" content="https://www.redhat.com/profiles/rh/themes/redhatdotcom/img/logo-rh-og-image.png" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Download the no-cost, 60-day Red Hat Ansible Automation Platform trial, which includes access to our system management and predictive analytics software." />
+<meta name="twitter:title" content="Red Hat Ansible Automation Platform | Product Trial" />
+<meta name="twitter:url" content="https://www.redhat.com/en/technologies/management/ansible/trial" />
+<meta name="twitter:image" content="https://www.redhat.com/profiles/rh/themes/redhatdotcom/img/logo-rh-og-image.png" />
+<meta name="baggage" content="sentry-trace_id=753374d3f4a84424b85433a8c8435d83,sentry-environment=prod" />
+<meta name="sentry-trace" content="753374d3f4a84424b85433a8c8435d83-e5d7f8a05cf4412c" />
+<meta name="traceparent" content="00-753374d3f4a84424b85433a8c8435d83-e5d7f8a05cf4412c-00" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta http-equiv="content-language" content="en" />
+<meta name="last-publish-date" content="Mon, 26 Aug 2024 16:54:33 GMT" />
+<meta name="node-type" content="product_trial" />
+<meta name="source" content="rhdc_drupal" />
+<meta name="rhdc_key" content="8bc2c0a6d899554a6375d9c228b1471d" />
+<meta name="taxonomy-product" content="Red Hat Ansible Automation Platform" />
+<meta name="taxonomy-product-tid" content="25911" />
+<meta name="taxonomy-product-line" content="Management" />
+<meta name="taxonomy-product-line-tid" content="17901" />
+<meta name="source_title" content="Red Hat Ansible Automation Platform | Product Trial" />
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="alternate" hreflang="zh" href="https://www.redhat.com/zh/technologies/management/ansible/trial" />
+<link rel="alternate" hreflang="zh-hant" href="https://www.redhat.com/zh-tw/technologies/management/ansible/trial" />
+<link rel="alternate" hreflang="en" href="https://www.redhat.com/en/technologies/management/ansible/trial" />
+<link rel="alternate" hreflang="fr" href="https://www.redhat.com/fr/technologies/management/ansible/trial" />
+<link rel="alternate" hreflang="de" href="https://www.redhat.com/de/technologies/management/ansible/trial" />
+<link rel="alternate" hreflang="it" href="https://www.redhat.com/it/technologies/management/ansible/trial" />
+<link rel="alternate" hreflang="ja" href="https://www.redhat.com/ja/technologies/management/ansible/trial" />
+<link rel="alternate" hreflang="ko" href="https://www.redhat.com/ko/technologies/management/ansible/trial" />
+<link rel="alternate" hreflang="pt-br" href="https://www.redhat.com/pt-br/technologies/management/ansible/trial" />
+<link rel="alternate" hreflang="es" href="https://www.redhat.com/es/technologies/management/ansible/trial" />
+
+    <script>performance.mark('HEAD End'); performance.measure('HEAD Time', 'HEAD Start', 'HEAD End');</script>
+  </head>
+  <body class="path-node rhdc-node-type-product-trial product-trial-node-591831" >
+    
+            <div class="rhb-region rhb-region--highlighted"><div data-drupal-messages-fallback class="hidden"></div></div>
+  <div class="rhdc-header--background-image"></div>
+  
+  <div class="rhb-region rhb-region--content" id="rhb-main-content" role="main">
+    
+<template>
+  <span id="template__node-content">          <div class="one-column">
+      
+      
+      
+                            <div  class="dx-relative content-region">
+          
+  <!-- Pattern | feature_set -->
+                
+
+        
+    
+
+
+
+
+
+    
+    
+    
+    
+                
+
+        
+
+
+
+    
+
+
+
+
+
+
+
+
+<div class="rh-band--layout"  id="requirements-wrapper" data-rh-unique-id="7197321"  data-rh-background="white">
+        <div class="rh-band-container"data-rh-layout="stacked"  ><section class="rh-band-main"    data-rh-layout="stacked"
+><header class="rh-band-header"        data-rh-layout="only8" data-rh-theme="">
+                                                            <!-- Component | Band_header -->
+
+
+    
+                
+                                                                
+    <div class="rh-band-header--component" data-rh-align=left        ><h2 class="rh-band-header-headline" >Requirements to get started</h2>
+</div>
+                                                    </header><div class="rh-band-content"    
+                     data-rh-layout="gallery2"                ><!-- Component | Icon_panel -->
+
+
+    <div class="rh-icon-panel--component">
+        <div class="rh-icon-panel-wrapper"
+         data-rh-icon-size="medium"
+            data-rh-icon-background=gray
+            
+         data-rh-align="left"
+         >
+                    <div class="rh-icon-panel-svg" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><path d="M17.47 21a.78.78 0 0 0 .24.16.73.73 0 0 0 .58 0 .78.78 0 0 0 .24-.16l4-4a.75.75 0 1 0-1.06-1l-2.72 2.72V8.5a.75.75 0 0 0-1.5 0v10.19L14.53 16a.75.75 0 1 0-1.06 1zM7 23.75a.75.75 0 0 0 0 1.5h2.67a.75.75 0 1 0 0-1.5z"/><path d="M32 19.75H22a.75.75 0 0 0 0 1.5h9.25v5.5H4.75v-5.5H14a.75.75 0 0 0 0-1.5H4a.76.76 0 0 0-.75.75v7a.76.76 0 0 0 .75.75h28a.76.76 0 0 0 .75-.75v-7a.76.76 0 0 0-.75-.75z"/><circle cx="29" cy="23.5" r=".75"/></svg>            </div>
+        
+                    <div class="rh-icon-panel-content">
+                                    <h4 class="rh-icon-panel-title" >Install Red Hat Enterprise Linux</h4>
+                                                    <div class="rh-icon-panel-summary"><!-- Component | Generic -->
+
+
+    <div class="rh-generic--component"
+                    >
+        <p>You need to run Red Hat Enterprise Linux as your operating system for this product trial. We’ll provide next steps to download and install once your Ansible Automation Platform trial has been activated.</p>
+    </div>
+</div>
+                                            </div>
+                </div>
+    </div>
+<!-- Component | Icon_panel -->
+
+
+    <div class="rh-icon-panel--component">
+        <div class="rh-icon-panel-wrapper"
+         data-rh-icon-size="medium"
+            data-rh-icon-background=gray
+            
+         data-rh-align="left"
+         >
+                    <div class="rh-icon-panel-svg" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><title>Icon-Red_Hat-Objects-Clock-A-Black-RGB</title><path d="M26.44 17.39a.76.76 0 0 0-1 .41.72.72 0 0 0-.06.29.75.75 0 0 0 .22.53.78.78 0 0 0 .24.16.75.75 0 0 0 1-.69.72.72 0 0 0-.06-.29.63.63 0 0 0-.16-.24.81.81 0 0 0-.18-.17zM23.48 13a.87.87 0 0 0 .28.05.75.75 0 0 0 .54-.22.74.74 0 0 0 .21-.53.87.87 0 0 0-.05-.28.89.89 0 0 0-.16-.25.79.79 0 0 0-1.07 0 .72.72 0 0 0-.16.25.71.71 0 0 0-.06.28.75.75 0 0 0 .22.53.85.85 0 0 0 .25.17zM23.23 24.38a.77.77 0 0 0 .54.22.74.74 0 0 0 .52-.22.73.73 0 0 0 0-1.06.67.67 0 0 0-.24-.16.77.77 0 0 0-.82.16.75.75 0 0 0 0 1.06zM17.71 25.55a.78.78 0 0 0-.24.16.63.63 0 0 0-.16.24.73.73 0 0 0 0 .58.63.63 0 0 0 .16.24.75.75 0 0 0 1.06 0 .78.78 0 0 0 .16-.24.72.72 0 0 0 .06-.29.75.75 0 0 0-1-.69zM12.52 23.16a.77.77 0 0 0-.81.16.73.73 0 0 0 0 1.06.75.75 0 0 0 .53.22.79.79 0 0 0 .53-.22.75.75 0 0 0 0-1.06.72.72 0 0 0-.25-.16zM9.32 17.56a.81.81 0 0 0-.17.24.93.93 0 0 0-.05.29.75.75 0 0 0 .22.53.78.78 0 0 0 .24.16.72.72 0 0 0 .29.06.77.77 0 0 0 .53-.22.75.75 0 0 0 .22-.53.72.72 0 0 0-.06-.29.75.75 0 0 0-1.22-.24zM12.93 12a.72.72 0 0 0-.16-.25.76.76 0 0 0-.82-.16.67.67 0 0 0-.24.16.74.74 0 0 0-.17.25.71.71 0 0 0-.06.28.72.72 0 0 0 .23.53.7.7 0 0 0 .52.22.93.93 0 0 0 .29-.05 1 1 0 0 0 .25-.17.75.75 0 0 0 .22-.53.71.71 0 0 0-.06-.28z"/><path d="M18 29.77A11.77 11.77 0 0 0 29.75 18a.75.75 0 1 0-1.5 0 10.25 10.25 0 1 1-11-10.22V16A2.18 2.18 0 1 0 19 20l1.77 1.77a.74.74 0 0 0 .53.22.73.73 0 0 0 .53-.22.74.74 0 0 0 0-1.06L20 18.9a2.14 2.14 0 0 0-1.25-2.9V7a.75.75 0 0 0-.75-.73 11.75 11.75 0 0 0 0 23.5zm0-12.44a.69.69 0 1 1-.69.69.69.69 0 0 1 .69-.69z"/></svg>            </div>
+        
+                    <div class="rh-icon-panel-content">
+                                    <h4 class="rh-icon-panel-title" >Take a break to access hosted services</h4>
+                                                    <div class="rh-icon-panel-summary"><!-- Component | Generic -->
+
+
+    <div class="rh-generic--component"
+                    >
+        <p>You may need to wait up to 30 minutes after your trial is activated to access the <a href="https://console.redhat.com/ansible/ansible-dashboard">Red Hat Hybrid Cloud Console</a>, which includes automation analytics, Red Hat Insights, Ansible Content Collections, and more. &nbsp;</p>
+    </div>
+</div>
+                                            </div>
+                </div>
+    </div>
+</div></section></div>
+    </div>
+
+        </div>
+                  </div>
+            <div class="one-column">
+      
+      
+      
+                            <div  class="dx-relative content-region">
+          
+  <!-- Pattern | standard_text_band -->
+
+    
+
+
+
+
+
+
+    
+    
+    
+    
+                
+
+        
+
+
+
+    
+    
+
+
+
+
+
+
+
+<div class="rh-band--layout"   data-rh-band-collapse="reduced"  data-rh-background="white">
+        <div class="rh-band-container"data-rh-layout="stacked"  ><section class="rh-band-main"    data-rh-layout="stacked"
+><header class="rh-band-header"        data-rh-layout="only8 center" data-rh-theme="">
+                                                            <!-- Component | Band_header -->
+
+
+    
+                
+                                                                
+  <div class="rh-band-header--component" data-rh-align=center        ><h2 class="rh-band-header-subsection-headline" >Frequently asked questions</h2>
+</div>
+                                                    </header><div class="rh-band-content"    
+                     data-rh-layout="12 flex center"                ><!-- Component | Generic -->
+
+
+    <div class="rh-generic--component"
+                 data-rh-align="center"    >
+                  <div class="one-column">
+      
+      
+      
+                            <div class="dx-relative content-region">
+          
+  <!-- Pattern | content_set_band -->
+
+
+
+    
+
+                                            
+
+
+
+
+
+    
+    
+    
+    
+                
+
+        
+
+
+
+    
+
+
+
+
+
+
+
+
+<div class="rh-band--layout" data-rh-background="white">
+        <div class="rh-band-container" data-rh-layout="stacked"><section class="rh-band-main" data-rh-layout="stacked"><div class="rh-band-content" data-rh-layout="stacked">
+
+
+
+
+    <pfe-content-set class="rh-content-set--layout" tab-history id="faqs" variant="earth" breakpoint="9999">
+                    <!-- Subpattern | Content_group  -->
+
+    
+    
+<!-- Content set group -->
+    <h4 pfe-content-set--header class="rh-content-set-group--header" id="what-is-it">What is a product trial? How is a Red Hat product trial different from a traditional licensed software trial?  </h4>
+    <div pfe-content-set--panel class="rh-content-set-group--panel" data-rh-layout="card-gallery">
+                    <!-- Subpattern | standard_text -->
+
+
+            
+        
+        
+                
+    
+
+
+
+
+
+<!-- Group layout -->
+    <div class="rh-group--layout" data-rh-layout="stacked" data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620">
+                            <div class="rh-group-body" data-rh-layout="min-stacked">
+                                    <!-- Component | Generic -->
+
+
+    <div class="rh-generic--component" data-rh-align="left">
+        <p>Red Hat®&nbsp;product trials offer all the benefits included in a Red Hat subscription. But Red Hat product trials are more than just access to the latest code. They provide access to all versions of the software, to patches and other software updates, and to our award-winning&nbsp;<a href="https://access.redhat.com">Red Hat Customer Portal</a>.</p>
+    </div>
+                            </div>
+                    </div>
+            </div>
+
+
+                    <!-- Subpattern | Content_group  -->
+
+    
+    
+<!-- Content set group -->
+    <h4 pfe-content-set--header class="rh-content-set-group--header" id="what-is-the-difference-between-a-sales-assisted-product-trial-and-a-self-serve-product-trial?">What is the difference between a sales-assisted product trial and a self-serve product trial?</h4>
+    <div pfe-content-set--panel class="rh-content-set-group--panel" data-rh-layout="card-gallery">
+                    <!-- Subpattern | standard_text -->
+
+
+            
+        
+        
+                
+    
+
+
+
+
+
+<!-- Group layout -->
+    <div class="rh-group--layout" data-rh-layout="stacked" data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620">
+                            <div class="rh-group-body" data-rh-layout="min-stacked">
+                                    <!-- Component | Generic -->
+
+
+    <div class="rh-generic--component" data-rh-align="left">
+        <p dir="ltr">Sales-assisted trials are offerings requested by Red Hat sales teams on behalf of a new or existing customer.</p><p dir="ltr">Self-serve trials are activated directly by the customer from the&nbsp;<a href="/en/products/trials" data-entity-type="node" data-entity-uuid="bda005de-2753-4349-b025-852486ec6f8f" data-entity-substitution="canonical" title="All Red Hat product trials">Red Hat product trials center</a>.</p><p>You can always&nbsp;<a href="/en/contact/sales" data-entity-type="node" data-entity-uuid="bbca6e3e-7ff9-469e-9dd0-bea0fd5a51f9" data-entity-substitution="canonical" title="Contact the Red Hat sales team">contact Red Hat Sales</a> to help you with your product trial, whether you have a sales-assisted trial or a self-serve trial.</p>
+    </div>
+                            </div>
+                    </div>
+            </div>
+
+
+                    <!-- Subpattern | Content_group  -->
+
+    
+    
+<!-- Content set group -->
+    <h4 pfe-content-set--header class="rh-content-set-group--header" id="who-can-sign-up">Who can sign up for a trial?</h4>
+    <div pfe-content-set--panel class="rh-content-set-group--panel" data-rh-layout="card-gallery">
+                    <!-- Subpattern | standard_text -->
+
+
+            
+        
+        
+                
+    
+
+
+
+
+
+<!-- Group layout -->
+    <div class="rh-group--layout" data-rh-layout="stacked" data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620">
+                            <div class="rh-group-body" data-rh-layout="min-stacked">
+                                    <!-- Component | Generic -->
+
+
+    <div class="rh-generic--component" data-rh-align="left">
+        <p>Anyone can request a product trial. However, some offerings require a subscription to another product, administrator access, or other prerequisite in order to access the trial. Please see the specific requirements for your trial on the main offer page, or reach out to your Red Hat sales representative for more information on the specifics of your product offering.</p>
+    </div>
+                            </div>
+                    </div>
+            </div>
+
+
+                    <!-- Subpattern | Content_group  -->
+
+    
+    
+<!-- Content set group -->
+    <h4 pfe-content-set--header class="rh-content-set-group--header" id="production-environment">May I run product trial software in a production environment?</h4>
+    <div pfe-content-set--panel class="rh-content-set-group--panel" data-rh-layout="card-gallery">
+                    <!-- Subpattern | standard_text -->
+
+
+            
+        
+        
+                
+    
+
+
+
+
+
+<!-- Group layout -->
+    <div class="rh-group--layout" data-rh-layout="stacked" data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620">
+                            <div class="rh-group-body" data-rh-layout="min-stacked">
+                                    <!-- Component | Generic -->
+
+
+    <div class="rh-generic--component" data-rh-align="left">
+        <p>Product trials are not intended for production environments. Using product trials in a production environment is a violation of the product trial <a href="/en/about/agreements" data-entity-type="node" data-entity-uuid="ee61fe72-4a02-4313-ac4b-651619e3eb20" data-entity-substitution="canonical" title="Red Hat Legal Agreements">terms and conditions.</a></p>
+    </div>
+                            </div>
+                    </div>
+            </div>
+
+
+                    <!-- Subpattern | Content_group  -->
+
+    
+    
+<!-- Content set group -->
+    <h4 pfe-content-set--header class="rh-content-set-group--header" id="does-it-have-support">Do Red Hat product trials come with support? How do I know if my trial has support?</h4>
+    <div pfe-content-set--panel class="rh-content-set-group--panel" data-rh-layout="card-gallery">
+                    <!-- Subpattern | standard_text -->
+
+
+            
+        
+        
+                
+    
+
+
+
+
+
+<!-- Group layout -->
+    <div class="rh-group--layout" data-rh-layout="stacked" data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620">
+                            <div class="rh-group-body" data-rh-layout="min-stacked">
+                                    <!-- Component | Generic -->
+
+
+    <div class="rh-generic--component" data-rh-align="left">
+        <p dir="ltr">Some product trials offer a level of support while others are self-supported (unsupported). There are several ways to determine the support level of your product trial:</p><ul><li dir="ltr" aria-level="1">In the product trial name (e.g., 60 Day Product Trials Ansible Automation Platform, Self Supported). You’ll find this in the welcome email you receive when your product trial begins.</li><li dir="ltr" aria-level="1">On the&nbsp;<a href="https://access.redhat.com/management/subscriptions">Subscriptions page</a> in Red Hat Customer Portal.</li><li dir="ltr" aria-level="1">On the&nbsp;<a href="/en/products/trials/my-trials" data-entity-type="node" data-entity-uuid="6376879b-bfbf-4e59-a787-932cfcc3d3f3" data-entity-substitution="canonical" title="My trials">My Trials</a> page by hovering your cursor over the product name.</li><li dir="ltr" aria-level="1">By contacting&nbsp;<a href="/en/contact/sales" data-entity-type="node" data-entity-uuid="bbca6e3e-7ff9-469e-9dd0-bea0fd5a51f9" data-entity-substitution="canonical" title="Contact the Red Hat sales team">Sales</a> or&nbsp;<a href="/en/contact/customer-service" data-entity-type="node" data-entity-uuid="c1dc5f18-02ba-4a0c-9716-d878dfdd770c" data-entity-substitution="canonical" title="Contact Red Hat customer service ">Customer Service</a>.</li></ul><p dir="ltr">Users with self-supported product trials have access to all&nbsp;<a href="https://docs.redhat.com/en/products">product documentation</a> as well as the vast Red Hat&nbsp;<a href="https://access.redhat.com/search/#/">Knowledgebase</a>.</p><p dir="ltr">If you have a sales-assisted trial, or a trial provided as part of a sales interaction, your support levels can vary.</p>
+    </div>
+                            </div>
+                    </div>
+            </div>
+
+
+                    <!-- Subpattern | Content_group  -->
+
+    
+    
+<!-- Content set group -->
+    <h4 pfe-content-set--header class="rh-content-set-group--header" id="how-to-download">How do I access my product trial?</h4>
+    <div pfe-content-set--panel class="rh-content-set-group--panel" data-rh-layout="card-gallery">
+                    <!-- Subpattern | standard_text -->
+
+
+            
+        
+        
+                
+    
+
+
+
+
+
+<!-- Group layout -->
+    <div class="rh-group--layout" data-rh-layout="stacked" data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620">
+                            <div class="rh-group-body" data-rh-layout="min-stacked">
+                                    <!-- Component | Generic -->
+
+
+    <div class="rh-generic--component" data-rh-align="left">
+        <p dir="ltr">Once your product trial subscription is active, you’ll have access to your product. It may be provided via a download of the latest version, or by accessing it via the cloud. You will find steps to access your product on the trial success page (the page that opens after you click “Start my trial” and is also accessible from the confirmation email you’ll receive) or by clicking on the “Explore now” link next to your product name on the&nbsp;<a href="/en/products/trials/my-trials" data-entity-type="node" data-entity-uuid="6376879b-bfbf-4e59-a787-932cfcc3d3f3" data-entity-substitution="canonical" title="My trials">My Trials page.</a></p>
+    </div>
+                            </div>
+                    </div>
+            </div>
+
+
+                    <!-- Subpattern | Content_group  -->
+
+    
+    
+<!-- Content set group -->
+    <h4 pfe-content-set--header class="rh-content-set-group--header" id="length-of-trial">How long does a product trial last?</h4>
+    <div pfe-content-set--panel class="rh-content-set-group--panel" data-rh-layout="card-gallery">
+                    <!-- Subpattern | standard_text -->
+
+
+            
+        
+        
+                
+    
+
+
+
+
+
+<!-- Group layout -->
+    <div class="rh-group--layout" data-rh-layout="stacked" data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620">
+                            <div class="rh-group-body" data-rh-layout="min-stacked">
+                                    <!-- Component | Generic -->
+
+
+    <div class="rh-generic--component" data-rh-align="left">
+        <p dir="ltr">Most product trials are 60 days, but exceptions may be made at the discretion of Red Hat Sales and Customer Service based on the user’s needs.</p><p>Sales-assisted trial lengths can vary. Please refer to the&nbsp;<a href="/en/products/trials/my-trials" data-entity-type="node" data-entity-uuid="6376879b-bfbf-4e59-a787-932cfcc3d3f3" data-entity-substitution="canonical" title="My trials">My trials page</a> to view the duration of your trial.&nbsp;</p>
+    </div>
+                            </div>
+                    </div>
+            </div>
+
+
+                    <!-- Subpattern | Content_group  -->
+
+    
+    
+<!-- Content set group -->
+    <h4 pfe-content-set--header class="rh-content-set-group--header" id="what-technologies">What technologies can I try through this program?</h4>
+    <div pfe-content-set--panel class="rh-content-set-group--panel" data-rh-layout="card-gallery">
+                    <!-- Subpattern | standard_text -->
+
+
+            
+        
+        
+                
+    
+
+
+
+
+
+<!-- Group layout -->
+    <div class="rh-group--layout" data-rh-layout="stacked" data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620">
+                            <div class="rh-group-body" data-rh-layout="min-stacked">
+                                    <!-- Component | Generic -->
+
+
+    <div class="rh-generic--component" data-rh-align="left">
+        <p>Nearly all Red Hat technologies are available for a product trial. You can find a listing of available trials in the <a href="/en/products/trials">Red Hat product trial center</a>.&nbsp;&nbsp;If there is a product you'd like to try that isn’t listed, please&nbsp;<a href="/en/contact">contact Red Hat Sales.</a></p>
+    </div>
+                            </div>
+                    </div>
+            </div>
+
+
+                    <!-- Subpattern | Content_group  -->
+
+    
+    
+<!-- Content set group -->
+    <h4 pfe-content-set--header class="rh-content-set-group--header" id="consulting-with-sales">Why do I need to consult with a sales representative to obtain certain product trials?</h4>
+    <div pfe-content-set--panel class="rh-content-set-group--panel" data-rh-layout="card-gallery">
+                    <!-- Subpattern | standard_text -->
+
+
+            
+        
+        
+                
+    
+
+
+
+
+
+<!-- Group layout -->
+    <div class="rh-group--layout" data-rh-layout="stacked" data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620">
+                            <div class="rh-group-body" data-rh-layout="min-stacked">
+                                    <!-- Component | Generic -->
+
+
+    <div class="rh-generic--component" data-rh-align="left">
+        <p>There are several possible reasons:</p><ol><li>You’ve requested more than 1 product trial.</li><li>You wish to extend your current product trial beyond the trial period.</li><li>Your product trial is not available via the web.</li><li>You’ve requested multiple product trials as part of a bundled SKU.</li><li>Your product trial requires additional approvals before being activated.</li></ol><p><a href="/en/contact">Contact Red Hat Sales</a>&nbsp;to try these technologies.</p>
+    </div>
+                            </div>
+                    </div>
+            </div>
+
+
+                    <!-- Subpattern | Content_group  -->
+
+    
+    
+<!-- Content set group -->
+    <h4 pfe-content-set--header class="rh-content-set-group--header" id="renewal-after-expiration">Can I renew the product trial after it has expired?</h4>
+    <div pfe-content-set--panel class="rh-content-set-group--panel" data-rh-layout="card-gallery">
+                    <!-- Subpattern | standard_text -->
+
+
+            
+        
+        
+                
+    
+
+
+
+
+
+<!-- Group layout -->
+    <div class="rh-group--layout" data-rh-layout="stacked" data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620">
+                            <div class="rh-group-body" data-rh-layout="min-stacked">
+                                    <!-- Component | Generic -->
+
+
+    <div class="rh-generic--component" data-rh-align="left">
+        <p>There are limits to how many product trials are allowed for each product over a given time period. If you need to extend your product trial or request more trials, please<a href="/en/store/contact-sales">&nbsp;</a><a href="/en/contact">contact Red Hat Sales</a>.</p>
+    </div>
+                            </div>
+                    </div>
+            </div>
+
+
+                    <!-- Subpattern | Content_group  -->
+
+    
+    
+<!-- Content set group -->
+    <h4 pfe-content-set--header class="rh-content-set-group--header" id="using-after-expiration">I’d like to use the product trial software after my trial has expired, or I’d like to use the software in a production environment. What are my options?</h4>
+    <div pfe-content-set--panel class="rh-content-set-group--panel" data-rh-layout="card-gallery">
+                    <!-- Subpattern | standard_text -->
+
+
+            
+        
+        
+                
+    
+
+
+
+
+
+<!-- Group layout -->
+    <div class="rh-group--layout" data-rh-layout="stacked" data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620">
+                            <div class="rh-group-body" data-rh-layout="min-stacked">
+                                    <!-- Component | Generic -->
+
+
+    <div class="rh-generic--component" data-rh-align="left">
+        <ul><li>Purchase a subscription.</li><li>Renew the product trial after the expiry grace period has ended.</li><li><a href="/en/contact">Contact Red Hat Sales</a>&nbsp;to determine if the product trial can be renewed sooner or if a similar product trial is available.</li></ul>
+    </div>
+                            </div>
+                    </div>
+            </div>
+
+
+            </pfe-content-set>
+
+</div></section></div>
+    </div>
+
+        </div>
+                  </div>
+  
+
+
+    </div>
+</div></section></div>
+    </div>
+
+        </div>
+                  </div>
+            <div class="one-column">
+      
+      
+      
+                            <div  class="dx-relative content-region">
+          
+  <!-- Pattern | raw_html -->
+
+<div class="rh-raw"         data-rh-unique-id="7197161">
+        <style>
+#requirements-wrapper .rh-band-header-headline {
+text-align: center;
+font-size: 28px;
+}
+#requirements-wrapper .rh-band-header {
+grid-template-columns: 1fr;
+}
+</style>
+    </div>
+
+        </div>
+                  </div>
+  </span>
+  <span id="template__block-content">          <div class="one-column">
+      
+      
+      
+                            <div  class="dx-relative content-region">
+          
+  <!-- Pattern | feature_set -->
+                
+    
+        
+    
+
+
+
+
+
+    
+    
+    
+    
+                
+
+        
+
+
+
+    
+    
+
+
+
+
+
+
+
+<div class="rh-band--layout"  data-rh-unique-id="7197311"  data-rh-background="white">
+        <div class="rh-band-container"data-rh-layout="stacked"  ><section class="rh-band-main"    data-rh-layout="stacked"
+><header class="rh-band-header"        data-rh-layout="only8 center" data-rh-theme="">
+                                                            <!-- Component | Band_header -->
+
+
+    
+                
+                                                                
+  <div class="rh-band-header--component" data-rh-align=center        ><h2 class="rh-band-header-subsection-headline" >Requirements to get started</h2><div class="rh-band-header-summary">Choose one of the following installation options:</div>
+</div>
+                                                    </header><div class="rh-band-content"    
+                     data-rh-layout="gallery2"                ><!-- Component | Icon_panel -->
+
+
+    <div class="rh-icon-panel--component">
+        <div class="rh-icon-panel-wrapper"
+         data-rh-icon-size="medium"
+            data-rh-icon-background=gray
+            
+         data-rh-align="left"
+         >
+                    <div class="rh-icon-panel-svg" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><path d="M17.47 21a.78.78 0 0 0 .24.16.73.73 0 0 0 .58 0 .78.78 0 0 0 .24-.16l4-4a.75.75 0 1 0-1.06-1l-2.72 2.72V8.5a.75.75 0 0 0-1.5 0v10.19L14.53 16a.75.75 0 1 0-1.06 1zM7 23.75a.75.75 0 0 0 0 1.5h2.67a.75.75 0 1 0 0-1.5z"/><path d="M32 19.75H22a.75.75 0 0 0 0 1.5h9.25v5.5H4.75v-5.5H14a.75.75 0 0 0 0-1.5H4a.76.76 0 0 0-.75.75v7a.76.76 0 0 0 .75.75h28a.76.76 0 0 0 .75-.75v-7a.76.76 0 0 0-.75-.75z"/><circle cx="29" cy="23.5" r=".75"/></svg>            </div>
+        
+                    <div class="rh-icon-panel-content">
+                                    <h4 class="rh-icon-panel-title" >Red Hat Enterprise Linux:</h4>
+                                                    <div class="rh-icon-panel-summary"><!-- Component | Generic -->
+
+
+    <div class="rh-generic--component"
+                    >
+        <p>You need to run Red Hat® Enterprise Linux® as your operating system for this product trial. If you already have it, proceed to the next step. If you don’t, choose&nbsp;<a href="https://access.redhat.com/downloads/content/479">your download</a> now. This <a href="https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/interactively_installing_rhel_from_installation_media/index">installation guide</a> provides step-by-step instructions.</p>
+    </div>
+</div>
+                                            </div>
+                </div>
+    </div>
+<!-- Component | Icon_panel -->
+
+
+    <div class="rh-icon-panel--component">
+        <div class="rh-icon-panel-wrapper"
+         data-rh-icon-size="medium"
+            data-rh-icon-background=gray
+            
+         data-rh-align="left"
+         >
+                    <div class="rh-icon-panel-svg" aria-hidden="true">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><title>Icon-Red_Hat-Software-Container-A-Black-RGB</title><path d="M29.48 11.2l-11-6.38a.77.77 0 0 0-.75 0L6.62 11.2a.76.76 0 0 0-.37.65v12.77a.76.76 0 0 0 .37.65l11.06 6.38a.71.71 0 0 0 .37.1.75.75 0 0 0 .38-.1l11.05-6.38a.74.74 0 0 0 .38-.65V11.85a.74.74 0 0 0-.38-.65zm-1.12 13l-10.31 5.93-10.3-5.95V12.29l10.3-5.95 10.31 5.95z"/></svg>            </div>
+        
+                    <div class="rh-icon-panel-content">
+                                    <h4 class="rh-icon-panel-title" >Red Hat OpenShift:</h4>
+                                                    <div class="rh-icon-panel-summary"><!-- Component | Generic -->
+
+
+    <div class="rh-generic--component"
+                    >
+        <p>This trial is supported on Red Hat OpenShift, should you already have it installed. We will provide you instructions once your trial is activated.&nbsp;</p>
+    </div>
+</div>
+                                            </div>
+                </div>
+    </div>
+</div></section></div>
+    </div>
+
+        </div>
+                  </div>
+            <div class="one-column">
+      
+      
+      
+                            <div  class="dx-relative content-region">
+          
+  <!-- Pattern | standard_text_band -->
+
+    
+
+
+
+
+
+
+    
+    
+    
+    
+                
+
+        
+
+
+
+    
+    
+
+
+
+
+
+
+
+<div class="rh-band--layout"   data-rh-background="white">
+        <div class="rh-band-container"data-rh-layout="stacked"  ><section class="rh-band-main"    data-rh-layout="stacked"
+><header class="rh-band-header"        data-rh-layout="only8 center" data-rh-theme="">
+                                                            <!-- Component | Band_header -->
+
+
+    
+                
+                                                                
+  <div class="rh-band-header--component" data-rh-align=center        ><h2 class="rh-band-header-subsection-headline" >Next steps</h2>
+</div>
+                                                    </header><div class="rh-band-content"    
+                     data-rh-layout="8 4 flex center"                ><!-- Component | Generic -->
+
+
+    <div class="rh-generic--component"
+                 data-rh-align="center"    >
+        <ol class="pfe-list--primary rc-l-masonry-list"><li><h4>Learn about Red Hat Ansible Automation Platform</h4><p>Take the no-cost <a href="https://www.redhat.com/en/services/training/do007-ansible-essentials-simplicity-automation-technical-overview">Ansible Basics: Automation Technical Overview</a> online course.</p><p>Take an interactive lab to discover specific workflows for:</p><ul><li><a href="https://play.instruqt.com/redhat/invite/a86hqc0rx9mi">Automating Red Hat Enterprise Linux</a></li><li><a href="https://play.instruqt.com/redhat/invite/p2q2gke0revu">Automating Microsoft Windows</a></li><li><a href="https://www.redhat.com/en/interactive-labs/ansible#hybrid-cloud">Cloud automation labs</a></li><li><a href="https://www.redhat.com/en/interactive-labs/ansible#network-and-edge">Network automation labs</a></li></ul></li><li><h4>Deploy Red Hat Ansible Automation Platform</h4><ul><li>First, <a href="https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform/2.4/html/red_hat_ansible_automation_platform_installation_guide/index">install </a>Ansible® Automation Platform.</li><li>Next, <a href="https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.4/html/getting_started_with_automation_controller/index?extIdCarryOver=true&amp;sc_cid=701f2000001OH7YAAW">set up automation controller</a> and create your first playbook.</li></ul></li><li><h4>Try Ansible Lightspeed</h4><p>Red Hat Ansible Lightspeed with IBM watsonx Code Assistant is a generative AI service that helps you &nbsp;create, adopt, and maintain Ansible content more efficiently.&nbsp;</p><p><strong>To get started, activate your trial to Ansible Lightspeed with watsonx Code Assistant in VS Code. </strong><a href="https://www.redhat.com/en/products/interactive-walkthrough/install-ansible-lightspeed">Learn how.&nbsp;</a>&nbsp;</p></li><li><h4>Discover Ansible Content Collections</h4><p>Ansible Content Collections include expert-created roles, modules, plug-ins, and more to help you perform common operational tasks and start automating even faster. View <a href="https://console.redhat.com/ansible/automation-hub/partners" target="_blank">Ansible Content Collections</a> from Red Hat and our integration partners.</p><p>&nbsp;</p></li></ol><style type="text/css">.rc-l-masonry-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 32px;
+}
+.rh-generic--component[data-rh-align=center] ul:not([class]) li {
+    list-style-position: outside;
+}
+</style>
+    </div>
+</div></section></div>
+    </div>
+
+        </div>
+                  </div>
+            <div class="one-column">
+      
+      
+      
+                            <div  class="dx-relative content-region">
+          
+  <!-- Pattern | standard_text_band -->
+
+    
+
+
+
+
+
+
+    
+    
+    
+    
+                
+
+        
+
+
+
+    
+    
+
+
+
+
+
+
+
+<div class="rh-band--layout"   data-rh-band-collapse="no-padding-top"  data-rh-background="white">
+        <div class="rh-band-container"data-rh-layout="stacked"  ><section class="rh-band-main"    data-rh-layout="stacked"
+><header class="rh-band-header"        data-rh-layout="only8 center" data-rh-theme="">
+                                                            <!-- Component | Band_header -->
+
+
+    
+                
+                                                                
+  <div class="rh-band-header--component" data-rh-align=center        ><h2 class="rh-band-header-subsection-headline" >Need support?</h2>
+</div>
+                                                    </header><div class="rh-band-content"    
+                     data-rh-layout="7 5 flex center"                ><!-- Component | Generic -->
+
+
+    <div class="rh-generic--component"
+                 data-rh-align="center"    >
+        <h4>          <div class="one-column">
+      
+      
+      
+                            <div class="dx-relative content-region">
+              
+            <p>If you have questions about your product trial, contact the support team at 888-RED-HAT-1 or 919-754-3700, then select the menu prompt for Customer Service.</p>
+
+      
+
+        </div>
+                  </div>
+  
+
+</h4>
+
+<h4>&nbsp;</h4>
+
+    </div>
+</div></section></div>
+    </div>
+
+        </div>
+                  </div>
+            <div class="one-column">
+      
+      
+      
+                            <div  class="dx-relative content-region">
+          
+  <!-- Pattern | custom_band -->
+    
+
+
+
+    
+        
+    
+
+
+
+
+
+    
+
+
+
+
+    
+    
+
+
+
+
+    
+    
+    
+    
+                
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
+
+<div class="rh-band--layout"  data-rh-unique-id="7197261"  data-rh-background-align="center-center" data-rh-background="white">
+        <div class="rh-band-container"data-rh-layout="stacked"  ><section class="rh-band-main"    data-rh-layout="stacked"
+><header class="rh-band-header"        data-rh-layout="only8 center" data-rh-theme="">
+                                                            <!-- Component | Band_header -->
+
+
+    
+                
+                                                                
+  <div class="rh-band-header--component" data-rh-align=center        ><h2 class="rh-band-header-subsection-headline" >Ready to buy?</h2><div class="rh-band-header-summary"><p>Read more about the <a href="/en/about/value-of-Red-Hat">value of a subscription</a> and upgrade to a fully supported version of Red Hat Ansible Automation Platform today.</p></div>
+</div>
+                                                    </header><div class="rh-band-content"    
+                     data-rh-layout="4 4 4 flex center"                ><!-- Subpattern | standard_text -->
+
+
+                                
+                            
+        
+            
+                
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<!-- Card layout -->
+<div class="rh-card--layout "     data-rh-background="white"
+            data-rh-theme="light"
+        
+        data-rh-bg-align="cover"
+    
+        data-rh-layout="stacked"
+
+    data-rh-justify="justify"><div class="rh-card-content"    data-rh-layout="min-stacked"
+    >
+                            <!-- Component | standard_header -->
+
+
+                    
+                    
+
+
+
+
+                        
+
+
+        <header class="rh-standard-header--component"     data-rh-align=left
+                  >
+        <div class="rh-standard-header-container">
+                                    <h3 class="rh-standard-header-headline-small" id="rh-cmq6w">Red Hat Sales</h3>                    </div>
+            </header>
+                            <!-- Component | Generic -->
+
+
+    <div class="rh-generic--component"
+                 data-rh-align="left"    >
+        <p>Get expert help selecting the right Red Hat Ansible Automation Platform option for your needs.</p>
+    </div>
+                    </div>
+    <footer class="rh-card-footer"            >
+                            <!-- Component | CTA -->
+
+
+    
+                        
+    
+    <span class="rh-cta--component"                  data-rh-align="left"                data-rh-cta-type="primary"
+    >
+        <a class="rh-cta-link"                 href="/en/contact"        title="about | contact"                data-analytics-linkType="cta"
+                        aria-describedby="rh-cmq6w"     >Contact sales</a>
+    </span>
+                    </footer>
+    </div>
+<!-- Subpattern | standard_text -->
+
+
+                                
+        
+        
+            
+                
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<!-- Card layout -->
+<div class="rh-card--layout "     data-rh-background="white"
+            data-rh-theme="light"
+        
+        data-rh-bg-align="cover"
+    
+        data-rh-layout="stacked"
+
+    data-rh-justify="justify"><div class="rh-card-content"    data-rh-layout="min-stacked"
+    >
+                            <!-- Component | standard_header -->
+
+
+                    
+                    
+
+
+
+
+                        
+
+
+        <header class="rh-standard-header--component"     data-rh-align=left
+                  >
+        <div class="rh-standard-header-container">
+                                    <h3 class="rh-standard-header-headline-small" id="rh-yp2qa">Marketplaces</h3>                    </div>
+            </header>
+                            <!-- Component | Generic -->
+
+
+    <div class="rh-generic--component"
+                 data-rh-align="left"    >
+        <p>Easily configure and buy Red Hat Ansible Automation Platform from partner marketplaces.</p><p><rh-cta><a href="https://aws.amazon.com/marketplace/pp/prodview-xy6tb27e6rkjm" data-analytics-linktype="cta" data-analytics-text="AWS Marketplace">AWS Marketplace</a></rh-cta></p><p><rh-cta><a href="https://azuremarketplace.microsoft.com/en-us/marketplace/apps/redhat.rhaapomsa?tab=Overview" data-analytics-linktype="cta" data-analytics-text="Azure Marketplace">Azure Marketplace</a></rh-cta></p><p><rh-cta><a href="https://console.cloud.google.com/marketplace/product/redhat-marketplace/rhaap2?hl=hr-HR" data-analytics-linktype="cta" data-analytics-text="Google Cloud Marketplace">Google Cloud Marketplace</a></rh-cta></p>
+    </div>
+                    </div>
+    </div>
+<!-- Subpattern | standard_text -->
+
+
+                                
+                            
+        
+            
+                
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<!-- Card layout -->
+<div class="rh-card--layout "     data-rh-background="white"
+            data-rh-theme="light"
+        
+        data-rh-bg-align="cover"
+    
+        data-rh-layout="stacked"
+
+    data-rh-justify="justify"><div class="rh-card-content"    data-rh-layout="min-stacked"
+    >
+                            <!-- Component | standard_header -->
+
+
+                    
+                    
+
+
+
+
+                        
+
+
+        <header class="rh-standard-header--component"     data-rh-align=left
+                  >
+        <div class="rh-standard-header-container">
+                                    <h3 class="rh-standard-header-headline-small" id="rh-ycpjp">Connect with partners</h3>                    </div>
+            </header>
+                            <!-- Component | Generic -->
+
+
+    <div class="rh-generic--component"
+                 data-rh-align="left"    >
+        <p>Have a particular infrastructure challenge? Need industry-specific expertise? Connect with a Red Hat partner.</p>
+    </div>
+                    </div>
+    <footer class="rh-card-footer"            >
+                            <!-- Component | CTA -->
+
+
+    
+                        
+    
+    <span class="rh-cta--component"                  data-rh-align="left"                data-rh-cta-type="secondary"
+    >
+        <a class="rh-cta-link"                 href="https://redhat.secure.force.com/finder/"                        data-analytics-linkType="cta"
+                        aria-describedby="rh-ycpjp"     >Find a partner<span aria-hidden="true"><svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><title>Icon-Red_Hat-Directional-A-Black-RGB</title><path d="M29.74 17.95v-.1a.9.9 0 0 0-.03-.086c-.01-.025-.016-.05-.027-.075a.72.72 0 0 0-.148-.223l-3.5-3.5-3.5-3.5a.75.75 0 1 0-1.06 1.06l2.86 2.86 2.86 2.86H7a.75.75 0 0 0 0 1.5h20.19l-2.22 2.223-3.5 3.5a.75.75 0 1 0 1.06 1.06l3.5-3.5 3.5-3.5c.007-.007.01-.016.016-.023a.738.738 0 0 0 .147-.22l.005-.02a.76.76 0 0 0 .045-.236.23.23 0 0 0 .007-.03c0-.017-.008-.032-.01-.05z"/></svg></span></a>
+    </span>
+                    </footer>
+    </div>
+</div></section></div>
+    </div>
+
+        </div>
+                  </div>
+            <div class="one-column">
+      
+      
+      
+                            <div  class="dx-relative content-region">
+          
+  <!-- Pattern | custom_band -->
+    
+
+
+
+    
+        
+    
+
+
+
+
+
+    
+
+
+
+
+    
+    
+
+
+
+
+    
+    
+    
+    
+                
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
+
+<div class="rh-band--layout"  data-rh-unique-id="7197181"  data-rh-background-align="center-center" data-rh-band-collapse="reduced-top-only"  data-rh-background="white">
+        <div class="rh-band-container"data-rh-layout="stacked"  ><section class="rh-band-main"    data-rh-layout="stacked"
+><header class="rh-band-header"        data-rh-layout="only8 center" data-rh-theme="">
+                                                            <!-- Component | Band_header -->
+
+
+    
+                
+                                                                
+  <div class="rh-band-header--component" data-rh-align=center        ><h2 class="rh-band-header-subsection-headline" >Helpful resources</h2><div class="rh-band-header-summary"><p>To make the most of your product trial, check out these resources.</p></div>
+</div>
+                                                    </header><div class="rh-band-content"    
+                     data-rh-layout="6 6 flex center"                ><!-- Subpattern | standard_text -->
+
+
+                                
+        
+        
+                
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<!-- Card layout -->
+<div class="rh-card--layout "     data-rh-background="white"
+            data-rh-theme="light"
+        
+        data-rh-bg-align="cover"
+    
+        data-rh-layout="stacked"
+
+    data-rh-justify="justify"><div class="rh-card-content"    data-rh-layout="min-stacked"
+    >
+                            <!-- Component | Generic -->
+
+
+    <div class="rh-generic--component"
+                 data-rh-align="left"    >
+        <p>Visit our learning hub where you'll find hands-on labs, learning paths, documentation and more to help you start automating faster.</p>
+    </div>
+                    </div>
+    <footer class="rh-card-footer"            >
+                            <!-- Component | CTA -->
+
+
+    
+                        
+    
+    <span class="rh-cta--component"                  data-rh-align="left"                data-rh-cta-type="secondary"
+    >
+        <a class="rh-cta-link"                 href="/en/technologies/management/ansible/learn"                        data-analytics-linkType="cta"
+                        aria-describedby="rh-e4oy0"     >Visit the learning hub<span aria-hidden="true"><svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><title>Icon-Red_Hat-Directional-A-Black-RGB</title><path d="M29.74 17.95v-.1a.9.9 0 0 0-.03-.086c-.01-.025-.016-.05-.027-.075a.72.72 0 0 0-.148-.223l-3.5-3.5-3.5-3.5a.75.75 0 1 0-1.06 1.06l2.86 2.86 2.86 2.86H7a.75.75 0 0 0 0 1.5h20.19l-2.22 2.223-3.5 3.5a.75.75 0 1 0 1.06 1.06l3.5-3.5 3.5-3.5c.007-.007.01-.016.016-.023a.738.738 0 0 0 .147-.22l.005-.02a.76.76 0 0 0 .045-.236.23.23 0 0 0 .007-.03c0-.017-.008-.032-.01-.05z"/></svg></span></a>
+    </span>
+                    </footer>
+    </div>
+<!-- Subpattern | standard_text -->
+
+
+                                
+        
+        
+                
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<!-- Card layout -->
+<div class="rh-card--layout "     data-rh-background="white"
+            data-rh-theme="light"
+        
+        data-rh-bg-align="cover"
+    
+        data-rh-layout="stacked"
+
+    data-rh-justify="justify"><div class="rh-card-content"    data-rh-layout="min-stacked"
+    >
+                            <!-- Component | Generic -->
+
+
+    <div class="rh-generic--component"
+                 data-rh-align="left"    >
+        <p>Find release notes, planning recommendations, and other guidance for your trial.</p>
+    </div>
+                    </div>
+    <footer class="rh-card-footer"            >
+                            <!-- Component | CTA -->
+
+
+    
+                        
+    
+    <span class="rh-cta--component"                  data-rh-align="left"                data-rh-cta-type="secondary"
+    >
+        <a class="rh-cta-link"                 href="https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform/2.2"                        data-analytics-linkType="cta"
+                        aria-describedby="rh-mcd7k"     >Browse product documentation<span aria-hidden="true"><svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><title>Icon-Red_Hat-Directional-A-Black-RGB</title><path d="M29.74 17.95v-.1a.9.9 0 0 0-.03-.086c-.01-.025-.016-.05-.027-.075a.72.72 0 0 0-.148-.223l-3.5-3.5-3.5-3.5a.75.75 0 1 0-1.06 1.06l2.86 2.86 2.86 2.86H7a.75.75 0 0 0 0 1.5h20.19l-2.22 2.223-3.5 3.5a.75.75 0 1 0 1.06 1.06l3.5-3.5 3.5-3.5c.007-.007.01-.016.016-.023a.738.738 0 0 0 .147-.22l.005-.02a.76.76 0 0 0 .045-.236.23.23 0 0 0 .007-.03c0-.017-.008-.032-.01-.05z"/></svg></span></a>
+    </span>
+                    </footer>
+    </div>
+<!-- Subpattern | standard_text -->
+
+
+                                
+        
+        
+                
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<!-- Card layout -->
+<div class="rh-card--layout "     data-rh-background="white"
+            data-rh-theme="light"
+        
+        data-rh-bg-align="cover"
+    
+        data-rh-layout="stacked"
+
+    data-rh-justify="justify"><div class="rh-card-content"    data-rh-layout="min-stacked"
+    >
+                            <!-- Component | Generic -->
+
+
+    <div class="rh-generic--component"
+                 data-rh-align="left"    >
+        <p>Find other versions and images of the Red Hat product you’re trying.</p>
+    </div>
+                    </div>
+    <footer class="rh-card-footer"            >
+                            <!-- Component | CTA -->
+
+
+    
+                        
+    
+    <span class="rh-cta--component"                  data-rh-align="left"                data-rh-cta-type="secondary"
+    >
+        <a class="rh-cta-link"                 href="https://access.redhat.com/downloads/content/480/ver=2.1/rhel---8/2.1/x86_64/product-software"                        data-analytics-linkType="cta"
+                        aria-describedby="rh-xeevf"     >Access other downloads<span aria-hidden="true"><svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><title>Icon-Red_Hat-Directional-A-Black-RGB</title><path d="M29.74 17.95v-.1a.9.9 0 0 0-.03-.086c-.01-.025-.016-.05-.027-.075a.72.72 0 0 0-.148-.223l-3.5-3.5-3.5-3.5a.75.75 0 1 0-1.06 1.06l2.86 2.86 2.86 2.86H7a.75.75 0 0 0 0 1.5h20.19l-2.22 2.223-3.5 3.5a.75.75 0 1 0 1.06 1.06l3.5-3.5 3.5-3.5c.007-.007.01-.016.016-.023a.738.738 0 0 0 .147-.22l.005-.02a.76.76 0 0 0 .045-.236.23.23 0 0 0 .007-.03c0-.017-.008-.032-.01-.05z"/></svg></span></a>
+    </span>
+                    </footer>
+    </div>
+<!-- Subpattern | standard_text -->
+
+
+                                
+        
+        
+                
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<!-- Card layout -->
+<div class="rh-card--layout "     data-rh-background="white"
+            data-rh-theme="light"
+        
+        data-rh-bg-align="cover"
+    
+        data-rh-layout="stacked"
+
+    data-rh-justify="justify"><div class="rh-card-content"    data-rh-layout="min-stacked"
+    >
+                            <!-- Component | Generic -->
+
+
+    <div class="rh-generic--component"
+                 data-rh-align="left"    >
+        <p>Get answers to questions about your trial or Red Hat products.&nbsp;(Note: Customer Service doesn't provide break/fix or triage support for self-supported product trials.)</p>
+    </div>
+                    </div>
+    <footer class="rh-card-footer"            >
+                            <!-- Component | CTA -->
+
+
+    
+                        
+    
+    <span class="rh-cta--component"                  data-rh-align="left"                data-rh-cta-type="secondary"
+    >
+        <a class="rh-cta-link"                 href="/en/contact"                        data-analytics-linkType="cta"
+                        aria-describedby="rh-24qt2"     >Contact Customer Service<span aria-hidden="true"><svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><title>Icon-Red_Hat-Directional-A-Black-RGB</title><path d="M29.74 17.95v-.1a.9.9 0 0 0-.03-.086c-.01-.025-.016-.05-.027-.075a.72.72 0 0 0-.148-.223l-3.5-3.5-3.5-3.5a.75.75 0 1 0-1.06 1.06l2.86 2.86 2.86 2.86H7a.75.75 0 0 0 0 1.5h20.19l-2.22 2.223-3.5 3.5a.75.75 0 1 0 1.06 1.06l3.5-3.5 3.5-3.5c.007-.007.01-.016.016-.023a.738.738 0 0 0 .147-.22l.005-.02a.76.76 0 0 0 .045-.236.23.23 0 0 0 .007-.03c0-.017-.008-.032-.01-.05z"/></svg></span></a>
+    </span>
+                    </footer>
+    </div>
+</div></section></div>
+    </div>
+
+  <!-- Pattern | standard_text_band -->
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+                
+
+        
+
+
+
+    
+    
+
+
+
+
+
+
+
+<div class="rh-band--layout"   data-rh-band-collapse="no-padding"  data-rh-background="white">
+        <div class="rh-band-container"data-rh-layout="stacked"  ><section class="rh-band-main"    data-rh-layout="stacked"
+><div class="rh-band-content"    
+                     data-rh-layout="7 5 flex center"                ><!-- Component | Generic -->
+
+
+    <div class="rh-generic--component"
+                 data-rh-align="center"    >
+        <div class="rc-cta-secondary"><a href="/en/products/trials/faqs">See product trial FAQs</a></div>
+
+    </div>
+</div></section></div>
+    </div>
+
+  <!-- Component | spacer -->
+
+
+<div class="rh-spacer--component" data-rh-vheight="small"  >
+</div>
+
+
+  <!-- Pattern | standard_text_band -->
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+                
+
+        
+
+
+
+    
+    
+
+
+
+
+
+
+
+<div class="rh-band--layout"   data-rh-band-collapse="no-padding-top"  data-rh-background="white">
+        <div class="rh-band-container"data-rh-layout="stacked"  ><section class="rh-band-main"    data-rh-layout="stacked"
+><footer class="rh-band-footer"     data-rh-layout="7 5 flex center"    ><!-- Component | CTA -->
+
+
+    
+                        
+    
+    <span class="rh-cta--component"                  data-rh-align="center"                data-rh-cta-type="primary"
+    >
+        <a class="rh-cta-link"                 href="/en/products/trials"        title="products | all trials"                data-analytics-linkType="cta"
+                            >See all product trials</a>
+    </span>
+</footer></section></div>
+    </div>
+
+        </div>
+                  </div>
+  </span>
+</template>
+
+<article>
+    <rh-product-trial-nav auth-links="[{&quot;title&quot;:&quot;Account&quot;,&quot;url&quot;:&quot;https:\/\/www.redhat.com\/wapps\/ugc\/protected\/account.html&quot;},{&quot;title&quot;:&quot;Logout&quot;,&quot;url&quot;:&quot;#logout&quot;}]">
+  <style>
+    rh-product-trial-nav:not(:defined) {
+      --_backgroundColor: var(--rh-product-trial-nav--backgroundColor,
+      rgb(21, 21, 21));
+      --_navHeight: calc(var(--rh-product-trial-nav--navHeight, 72px));
+      --_contentPadding: var(--rh-product-trial-nav--padding, 16px);
+      display: block;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      background-color: var(--_backgroundColor);
+      padding: 0 var(--_contentPadding);
+      min-height: var(--_navHeight);
+    }
+
+    @media screen and (min-width: 1200px) {
+      rh-product-trial-nav:not(:defined) {
+        --_contentPadding: var(--rh-product-trial-nav--wide--contentPadding, 32px);
+      }
+    }
+  </style>
+  <a slot="logo" href="/en" title="Red Hat" class="rh-product-trial-nav__logo">
+    <img src="https://static.redhat.com/libs/redhat/brand-assets/2/corp/logo--on-dark--200.png" alt="" width="135" aria-hidden="true" />
+  </a>
+</rh-product-trial-nav>
+
+    <rh-product-trial-processing is-processing class="product-trial-app-container">
+  <div id="product-trial-app">
+
+  </div>
+</rh-product-trial-processing>
+
+</article>
+
+  </div>
+
+
+<rh-global-footer slot="global"><h3 slot="links-primary"
+      hidden
+      data-analytics-text="Red Hat legal and privacy links"
+    >Red Hat legal and privacy links</h3><ul slot="links-primary" data-analytics-region="page-footer-bottom-primary"><li><a href="/en/about/company"
+            data-analytics-category="Footer|Corporate"
+            data-analytics-text="About Red Hat"
+          >About Red Hat</a></li><li><a href="/en/jobs"
+            data-analytics-category="Footer|Corporate"
+            data-analytics-text="Jobs"
+          >Jobs</a></li><li><a href="/en/events"
+            data-analytics-category="Footer|Corporate"
+            data-analytics-text="Events"
+          >Events</a></li><li><a href="/en/about/office-locations"
+            data-analytics-category="Footer|Corporate"
+            data-analytics-text="Locations"
+          >Locations</a></li><li><a href="/en/contact"
+            data-analytics-category="Footer|Corporate"
+            data-analytics-text="Contact Red Hat"
+          >Contact Red Hat</a></li><li><a href="/en/blog"
+            data-analytics-category="Footer|Corporate"
+            data-analytics-text="Red Hat Blog"
+          >Red Hat Blog</a></li><li><a href="/en/about/our-culture/diversity-equity-inclusion"
+            data-analytics-category="Footer|Corporate"
+            data-analytics-text=""
+          >Diversity, equity, and inclusion</a></li><li><a href="https://coolstuff.redhat.com/"
+            data-analytics-category="Footer|Corporate"
+            data-analytics-text="Cool Stuff Store"
+          >Cool Stuff Store</a></li><li><a href="https://www.redhat.com/en/summit"
+            data-analytics-category="Footer|Corporate"
+            data-analytics-text="Red Hat Summit"
+          >Red Hat Summit</a></li></ul><rh-footer-copyright slot="links-secondary"></rh-footer-copyright><h3 slot="links-secondary"
+      hidden
+      data-analytics-text="Red Hat legal and privacy links"
+    >Red Hat legal and privacy links</h3><ul slot="links-secondary" data-analytics-region="page-footer-bottom-secondary"><li><a href="/en/about/privacy-policy"
+                data-analytics-category="Footer|Red Hat legal and privacy links"
+                data-analytics-text="Privacy statement"
+              >Privacy statement</a></li><li><a href="/en/about/terms-use"
+                data-analytics-category="Footer|Red Hat legal and privacy links"
+                data-analytics-text="Terms of use"
+              >Terms of use</a></li><li><a href="/en/about/all-policies-guidelines"
+                data-analytics-category="Footer|Red Hat legal and privacy links"
+                data-analytics-text="All policies and guidelines"
+              >All policies and guidelines</a></li><li><a href="/en/about/digital-accessibility"
+                data-analytics-category="Footer|Red Hat legal and privacy links"
+                data-analytics-text="Digital accessibility"
+              >Digital accessibility</a></li><li><span id="teconsent"></span></li></ul></rh-global-footer>
+  
+    <div id="consent_blackbar" style="position: fixed;bottom: 0;width: 100%;z-index: 5;padding: 10px;"></div>
+<script>if (("undefined" !== typeof _satellite) && ("function" === typeof _satellite.pageBottom)) {_satellite.pageBottom();}</script>
+
+    <script src="/rhdc/system-files/js/js_8p2TKcJ17BLy7pUu0ATGQHoPZn3Jboxs-lnVausdBQ8.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=rhdc&amp;include=eJyNUltuxCAMvFASDtGvngIZ8AZrCabG2Ta3L3lJabdS9yfYZjyeIZYYvIUMaVHy1ciP1GIIyTpW5akTeGA227eTaJkacmrQEcV4QVDcaz4RZu3kf-JKraciiI-vwFGEpatLVZyMg4qrjPW0M5kxsYP0FoUn7D7RSTTlhn2GB42gxHmbsPH2O_ap0FcvVLReLipqnyCPvWe-E15ubsyKcqW6qFeZqzZbg-dc22MMxzsNUKhLsPCsNlD1_EBZDGf0nA7RXuGIHORwhLWARzmSETMK-SMTDBH0fR10MoCEC4WNCKE1N6BtSFsjrGEiV0346melVPtd0zlNW1sj-d3p7xhIWVaNQ6IxaljX4g9eif3qozknXSxODkOTVbbfsM-gJtgWyHj6xo_TnvBcTiuctZG0HTn2qQiH2atVIUjmufQayro5h4TfuIgo0g"></script>
+<script src="/modules/custom/rhdc_analytics/libraries/dist/js/rhdc_analytics_eddl_site_search.min.js?siwah3" type="text/javascript"></script>
+<script src="/modules/custom/rhdc_analytics/libraries/dist/js/rhdc_analytics_eddl_error.min.js?siwah3" type="text/javascript"></script>
+<script src="/rhdc/system-files/js/js_gClXr2YqzmoklhLvpYGqO_9Pi5F5BtEaGXc2MdPU2ZI.js?scope=footer&amp;delta=3&amp;language=en&amp;theme=rhdc&amp;include=eJyNUltuxCAMvFASDtGvngIZ8AZrCabG2Ta3L3lJabdS9yfYZjyeIZYYvIUMaVHy1ciP1GIIyTpW5akTeGA227eTaJkacmrQEcV4QVDcaz4RZu3kf-JKraciiI-vwFGEpatLVZyMg4qrjPW0M5kxsYP0FoUn7D7RSTTlhn2GB42gxHmbsPH2O_ap0FcvVLReLipqnyCPvWe-E15ubsyKcqW6qFeZqzZbg-dc22MMxzsNUKhLsPCsNlD1_EBZDGf0nA7RXuGIHORwhLWARzmSETMK-SMTDBH0fR10MoCEC4WNCKE1N6BtSFsjrGEiV0346melVPtd0zlNW1sj-d3p7xhIWVaNQ6IxaljX4g9eif3qozknXSxODkOTVbbfsM-gJtgWyHj6xo_TnvBcTiuctZG0HTn2qQiH2atVIUjmufQayro5h4TfuIgo0g"></script>
+<script src="/modules/contrib/webrh/@cpelements/pfe-navigation/dist/pfe-navigation.min.js" type="module"></script>
+<script src="/themes/custom/rhdc/js/rhdc-set-lang-cookie.js?siwah3" async></script>
+<script src="/modules/contrib/red_hat_shared_libs/dist/js/lazy-load-esmodule.js?siwah3" type="module"></script>
+<script src="/rhdc/system-files/js/js_TxXq8_xsg44898e7Qo_dkBLoHvYNQwkhkNtKF0e-kNA.js?scope=footer&amp;delta=7&amp;language=en&amp;theme=rhdc&amp;include=eJyNUltuxCAMvFASDtGvngIZ8AZrCabG2Ta3L3lJabdS9yfYZjyeIZYYvIUMaVHy1ciP1GIIyTpW5akTeGA227eTaJkacmrQEcV4QVDcaz4RZu3kf-JKraciiI-vwFGEpatLVZyMg4qrjPW0M5kxsYP0FoUn7D7RSTTlhn2GB42gxHmbsPH2O_ap0FcvVLReLipqnyCPvWe-E15ubsyKcqW6qFeZqzZbg-dc22MMxzsNUKhLsPCsNlD1_EBZDGf0nA7RXuGIHORwhLWARzmSETMK-SMTDBH0fR10MoCEC4WNCKE1N6BtSFsjrGEiV0346melVPtd0zlNW1sj-d3p7xhIWVaNQ6IxaljX4g9eif3qozknXSxODkOTVbbfsM-gJtgWyHj6xo_TnvBcTiuctZG0HTn2qQiH2atVIUjmufQayro5h4TfuIgo0g"></script>
+<script src="/modules/contrib/red_hat_shared_libs/dist/rhds-elements/modules/rh-cta-entry.js" type="module"></script>
+<script src="/rhdc/system-files/js/js_wk6pnpVNKbllv8d6hl2K99bS7suCJZ1kgVI5bubxQOA.js?scope=footer&amp;delta=9&amp;language=en&amp;theme=rhdc&amp;include=eJyNUltuxCAMvFASDtGvngIZ8AZrCabG2Ta3L3lJabdS9yfYZjyeIZYYvIUMaVHy1ciP1GIIyTpW5akTeGA227eTaJkacmrQEcV4QVDcaz4RZu3kf-JKraciiI-vwFGEpatLVZyMg4qrjPW0M5kxsYP0FoUn7D7RSTTlhn2GB42gxHmbsPH2O_ap0FcvVLReLipqnyCPvWe-E15ubsyKcqW6qFeZqzZbg-dc22MMxzsNUKhLsPCsNlD1_EBZDGf0nA7RXuGIHORwhLWARzmSETMK-SMTDBH0fR10MoCEC4WNCKE1N6BtSFsjrGEiV0346melVPtd0zlNW1sj-d3p7xhIWVaNQ6IxaljX4g9eif3qozknXSxODkOTVbbfsM-gJtgWyHj6xo_TnvBcTiuctZG0HTn2qQiH2atVIUjmufQayro5h4TfuIgo0g"></script>
+<script src="/modules/contrib/webrh/@patternfly/pfe-content-set/dist/pfe-content-set.min.js" type="module"></script>
+<script src="/rhdc/system-files/js/js_iyIMHyvY36yH-6Gfqgk_WdYP15z_MObPSSPdAa8URkI.js?scope=footer&amp;delta=11&amp;language=en&amp;theme=rhdc&amp;include=eJyNUltuxCAMvFASDtGvngIZ8AZrCabG2Ta3L3lJabdS9yfYZjyeIZYYvIUMaVHy1ciP1GIIyTpW5akTeGA227eTaJkacmrQEcV4QVDcaz4RZu3kf-JKraciiI-vwFGEpatLVZyMg4qrjPW0M5kxsYP0FoUn7D7RSTTlhn2GB42gxHmbsPH2O_ap0FcvVLReLipqnyCPvWe-E15ubsyKcqW6qFeZqzZbg-dc22MMxzsNUKhLsPCsNlD1_EBZDGf0nA7RXuGIHORwhLWARzmSETMK-SMTDBH0fR10MoCEC4WNCKE1N6BtSFsjrGEiV0346melVPtd0zlNW1sj-d3p7xhIWVaNQ6IxaljX4g9eif3qozknXSxODkOTVbbfsM-gJtgWyHj6xo_TnvBcTiuctZG0HTn2qQiH2atVIUjmufQayro5h4TfuIgo0g"></script>
+<script src="/modules/custom/rhdc_product_trial/libraries/src/js/rhdc_product_trial-string-translations.js?siwah3"></script>
+<script src="/modules/contrib/webrh/@patternfly/pfe-accordion/dist/pfe-accordion.min.js" type="module"></script>
+<script src="/modules/contrib/webrh/@patternfly/pfe-band/dist/pfe-band.min.js" type="module"></script>
+<script src="/modules/contrib/webrh/@patternfly/pfe-cta/dist/pfe-cta.min.js" type="module"></script>
+<script src="/modules/contrib/webrh/@patternfly/pfe-jump-links/dist/pfe-jump-links.min.js" type="module"></script>
+<script src="/modules/contrib/webrh/@patternfly/pfe-tabs/dist/pfe-tabs.min.js" type="module"></script>
+<script src="/modules/contrib/webrh/@patternfly/pfe-avatar/dist/pfe-avatar.min.js" type="module"></script>
+<script src="/modules/contrib/webrh/@patternfly/pfe-icon/dist/pfe-icon.min.js" type="module"></script>
+<script src="/modules/contrib/webrh/@patternfly/pfe-modal/dist/pfe-modal.min.js" type="module"></script>
+<script src="/modules/contrib/webrh/@patternfly/pfe-progress-steps/dist/pfe-progress-steps.min.js" type="module"></script>
+<script src="https://www.redhat.com/wapps/rhpt/static/main.bundle.js"></script>
+
+    
+  </body>
+</html>

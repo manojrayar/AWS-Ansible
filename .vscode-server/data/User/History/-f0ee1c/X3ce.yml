@@ -1,0 +1,12 @@
+- name: My Playbook
+  hosts: all
+  vars_files:
+    - "envfiles/{{ env }}.yml"
+  tasks:
+    - name: print vars in my_vars
+      debug:
+        msg: "UserName is: {{ username }}"
+  roles:
+    - role1
+    - role2
+    - role3

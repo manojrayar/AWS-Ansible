@@ -1,0 +1,8 @@
+- name: Deploy Application
+  hosts: all
+  vars:
+    ansible_vault_password: "my_password"
+  roles:
+    - role1
+    - role2
+    - role3
