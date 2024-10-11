@@ -1,0 +1,18 @@
+---
+- name: Chrome Test
+  hosts: localhost
+  tasks:
+    - name: Execute GitHub Actions workflow
+      shell: |
+         curl -X POST \
+         -H "Authorization: Bearer <token>" \
+         -H "Accept: application/vnd.github.v3+json" \
+         -d '{"ref": "main"}' \
+         https://api.github.com/repos/Ayushroc007/ansible-to-github-actions/actions/workflows/main.yml/dispatches
+      register: workflow_trigger_result
+    - name: Check workflow trigger status
+      debug:
+        msg: "Workflow triggered: {{ workflow_trigger_result.stdout }}"
+
+- name: Include a play after another play
+  ansible.builtin.import_playbook: monitorResult.yml
